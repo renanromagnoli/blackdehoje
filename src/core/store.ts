@@ -1,4 +1,4 @@
-export default class Store {
+export default class StoreModel {
     #id: number
     #name: string
     #thumbnail: string
