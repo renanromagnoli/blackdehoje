@@ -1,0 +1,1552 @@
+{
+	"requestInfo": {
+		"status": "OK",
+		"message": "SUCCESS",
+		"generatedDate": null
+	},
+	"pagination": {
+		"page": 1,
+		"size": 78,
+		"totalSize": 78,
+		"totalPage": 1,
+		"sortValues": null
+	},
+	"stores": [
+		{
+			"id": 7820,
+			"name": "Fabenne",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7820/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 45,
+			"maxCommission": 3.7800000000000007,
+			"events": [
+				{
+					"event": "Vendas - Fabenne",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.03780000000000001
+				}
+			]
+		},
+		{
+			"id": 5901,
+			"name": "Nike",
+			"thumbnail": "https://www.lomadee.com/programas/BR/5901/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 3158,
+			"maxCommission": 8.850000000000001,
+			"events": [
+				{
+					"event": "Portais de notícias, conteúdo de outras categorias",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.08850000000000001
+				},
+				{
+					"event": "CashBack e Social Media",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.07670000000000002
+				},
+				{
+					"event": "Blogs e Sites de conteúdo de esporte, fitness, estilo e fashion",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.07670000000000002
+				},
+				{
+					"event": "Retargeting",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.07670000000000002
+				},
+				{
+					"event": "Compra de Media",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0708
+				},
+				{
+					"event": "Shopping",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.06490000000000001
+				},
+				{
+					"event": "Subrede, E-mail Mkt e Sites de Cupons e Ofertas ",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.06490000000000001
+				},
+				{
+					"event": "Vendas - Nike",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.047200000000000006
+				},
+				{
+					"event": "Vendas - Sneakers",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0
+				}
+			]
+		},
+		{
+			"id": 6078,
+			"name": "Electrolux",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6078/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 934,
+			"maxCommission": 1.1800000000000002,
+			"events": [
+				{
+					"event": "Vendas - Electrolux",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.011800000000000001
+				}
+			]
+		},
+		{
+			"id": 6149,
+			"name": "Decathlon",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6149/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 193,
+			"maxCommission": 2.9500000000000006,
+			"events": [
+				{
+					"event": "Vendas - Decathlon",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.029500000000000005
+				}
+			]
+		},
+		{
+			"id": 158,
+			"name": "Polishop",
+			"thumbnail": "https://www.lomadee.com/programas/BR/158/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1218,
+			"maxCommission": 2.3600000000000003,
+			"events": [
+				{
+					"event": "Vendas Polishop",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.023600000000000003
+				}
+			]
+		},
+		{
+			"id": 1654,
+			"name": "Ferramentas Kennedy",
+			"thumbnail": "https://www.lomadee.com/programas/BR/1654/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 21161,
+			"maxCommission": 2.0650000000000004,
+			"events": [
+				{
+					"event": "Venda Ferramentas Kennedy",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.020650000000000005
+				}
+			]
+		},
+		{
+			"id": 5727,
+			"name": "Girafa",
+			"thumbnail": "https://www.lomadee.com/programas/BR/5727/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 556,
+			"maxCommission": 1.77,
+			"events": [
+				{
+					"event": "Vendas - Girafa",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				}
+			]
+		},
+		{
+			"id": 5779,
+			"name": "Efácil",
+			"thumbnail": "https://www.lomadee.com/programas/BR/5779/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1,
+			"maxCommission": 1.77,
+			"events": [
+				{
+					"event": "Materiais Construção e Segurança",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Ferramentas",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Utilidades domésticas",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Agrovet",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Eletroportáteis",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Smartphone e Telefonia",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Esporte e lazer",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Bebidas",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Bebê",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Áudio",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Informática",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Supermercado",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Ar e Ventilação",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Beleza e Saúde",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Eletrônicos",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Calçados",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Geral",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Eletrodomésticos",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Automotivo",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				}
+			]
+		},
+		{
+			"id": 5800,
+			"name": "Mega Mamute",
+			"thumbnail": "https://www.lomadee.com/programas/BR/5800/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 4250,
+			"maxCommission": 1.35,
+			"events": [
+				{
+					"event": "Vendas Mega Mamute",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.013500000000000002
+				}
+			]
+		},
+		{
+			"id": 5952,
+			"name": "Sieno Perfumes",
+			"thumbnail": "https://www.lomadee.com/programas/BR/5952/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1070,
+			"maxCommission": 5.4,
+			"events": [
+				{
+					"event": "Categoria não identificada",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.054000000000000006
+				},
+				{
+					"event": "Vendas - Sieno Perfumes",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.054000000000000006
+				}
+			]
+		},
+		{
+			"id": 6020,
+			"name": "Mania Pop",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6020/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 312,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Mania Pop",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				},
+				{
+					"event": "Vendas - Mania Pop",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 6039,
+			"name": "Chico Rei",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6039/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 786,
+			"maxCommission": 3.54,
+			"events": [
+				{
+					"event": "Vendas - Chico Rei",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0354
+				}
+			]
+		},
+		{
+			"id": 6040,
+			"name": "Eletrum",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6040/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 255,
+			"maxCommission": 2.0650000000000004,
+			"events": [
+				{
+					"event": "Vendas - Eletrum",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.020650000000000005
+				}
+			]
+		},
+		{
+			"id": 6094,
+			"name": "Soulier",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6094/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 2780,
+			"maxCommission": 4.32,
+			"events": [
+				{
+					"event": "Venda - Soulier",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0432
+				}
+			]
+		},
+		{
+			"id": 6117,
+			"name": "Positivo",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6117/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 87,
+			"maxCommission": 4.130000000000001,
+			"events": [
+				{
+					"event": "Positivo",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.04130000000000001
+				},
+				{
+					"event": "Categoria Não Identificada",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.04130000000000001
+				}
+			]
+		},
+		{
+			"id": 6126,
+			"name": "Vaio",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6126/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 24,
+			"maxCommission": 1.77,
+			"events": [
+				{
+					"event": "Vaio",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				},
+				{
+					"event": "Categoria Não Informada",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				}
+			]
+		},
+		{
+			"id": 6208,
+			"name": "Dona Coelha",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6208/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 132,
+			"maxCommission": 4.130000000000001,
+			"events": [
+				{
+					"event": "Categoria Padrão",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.04130000000000001
+				}
+			]
+		},
+		{
+			"id": 6210,
+			"name": "Anker",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6210/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 17,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Categoria Padrão",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				},
+				{
+					"event": "Event default",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 6214,
+			"name": "Relógios de Fábrica",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6214/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 458,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas Relógio de Fábrica",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 6260,
+			"name": "LePostiche",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6260/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 868,
+			"maxCommission": 4.720000000000001,
+			"events": [
+				{
+					"event": "Vendas Le Postiche",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.047200000000000006
+				}
+			]
+		},
+		{
+			"id": 6342,
+			"name": "Swift",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6342/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 648,
+			"maxCommission": 2.9500000000000006,
+			"events": [
+				{
+					"event": "Vendas Swift",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.029500000000000005
+				}
+			]
+		},
+		{
+			"id": 6350,
+			"name": "MARPAX",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6350/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1824,
+			"maxCommission": 3.7800000000000007,
+			"events": [
+				{
+					"event": "Vendas MARPAX",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.03780000000000001
+				}
+			]
+		},
+		{
+			"id": 6362,
+			"name": "Grupo A",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6362/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 4334,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Venda - Grupo A",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 6422,
+			"name": "Positivo Casa Inteligente",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6422/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 21,
+			"maxCommission": 3.54,
+			"events": [
+				{
+					"event": "Vendas - Casa inteligente",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0354
+				}
+			]
+		},
+		{
+			"id": 6438,
+			"name": "Latifundio",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6438/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 166,
+			"maxCommission": 10.8,
+			"events": [
+				{
+					"event": "Vendas - Latifundio",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.10800000000000001
+				}
+			]
+		},
+		{
+			"id": 6450,
+			"name": "Home is...",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6450/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 402,
+			"maxCommission": 5.4,
+			"events": [
+				{
+					"event": "Vendas - Home Is",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.054000000000000006
+				}
+			]
+		},
+		{
+			"id": 6549,
+			"name": "Betec",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6549/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 12,
+			"maxCommission": 4.720000000000001,
+			"events": [
+				{
+					"event": "Linha de Telas de Projeção",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.047200000000000006
+				},
+				{
+					"event": "Linha de Projetores",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.04130000000000001
+				},
+				{
+					"event": "Demais Categorias",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0354
+				}
+			]
+		},
+		{
+			"id": 6557,
+			"name": "Pag Menos",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6557/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1852,
+			"maxCommission": 8.1,
+			"events": [
+				{
+					"event": "Vendas Magazine Pag Menos",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.081
+				}
+			]
+		},
+		{
+			"id": 6592,
+			"name": "Color Brinque",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6592/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 15,
+			"maxCommission": 5.4,
+			"events": [
+				{
+					"event": "Vendas Color Brinque",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.054000000000000006
+				}
+			]
+		},
+		{
+			"id": 6635,
+			"name": "Drogaria Liviero",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6635/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 562,
+			"maxCommission": 5.015000000000001,
+			"events": [
+				{
+					"event": "Vendas Drogaria Liviero",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05015000000000001
+				}
+			]
+		},
+		{
+			"id": 6796,
+			"name": "Two Sexxy",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6796/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 168,
+			"maxCommission": 5.4,
+			"events": [
+				{
+					"event": "Two Sexxy - vendas",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.054000000000000006
+				}
+			]
+		},
+		{
+			"id": 6826,
+			"name": "Xiaomi Brasil",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6826/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 293,
+			"maxCommission": 1.8900000000000003,
+			"events": [
+				{
+					"event": "Vendas Xiaomi",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.018900000000000004
+				}
+			]
+		},
+		{
+			"id": 6829,
+			"name": "Anjuss",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6829/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 903,
+			"maxCommission": 8.850000000000001,
+			"events": [
+				{
+					"event": "Vendas - Anjuss",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.08850000000000001
+				}
+			]
+		},
+		{
+			"id": 6832,
+			"name": "Grid Motors",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6832/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 2179,
+			"maxCommission": 2.7,
+			"events": [
+				{
+					"event": "Vendas - Grid Motors",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.027000000000000003
+				}
+			]
+		},
+		{
+			"id": 6899,
+			"name": "Segredo Erótico",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6899/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 56,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Segredo Erótico",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 6917,
+			"name": "Clube do Mel",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6917/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 232,
+			"maxCommission": 5.4,
+			"events": [
+				{
+					"event": "Vendas Clube do Mel",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.054000000000000006
+				}
+			]
+		},
+		{
+			"id": 6937,
+			"name": "Lojas Renner",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6937/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 22000,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Renner",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				},
+				{
+					"event": "Marketplace",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0177
+				}
+			]
+		},
+		{
+			"id": 6943,
+			"name": "Herbia Cosméticos Orgânicos",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6943/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 85,
+			"maxCommission": 8.850000000000001,
+			"events": [
+				{
+					"event": "Vendas - Herbia",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.08850000000000001
+				}
+			]
+		},
+		{
+			"id": 6962,
+			"name": "Hidraushop",
+			"thumbnail": "https://www.lomadee.com/programas/BR/6962/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Hidraushop",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 7004,
+			"name": "Divinalu",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7004/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 3425,
+			"maxCommission": 6.4799999999999995,
+			"events": [
+				{
+					"event": "Vendas - DivinaLu",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0648
+				}
+			]
+		},
+		{
+			"id": 7137,
+			"name": "Loja Shure",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7137/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 93,
+			"maxCommission": 2.9500000000000006,
+			"events": [
+				{
+					"event": "Vendas - Loja Shure",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.029500000000000005
+				}
+			]
+		},
+		{
+			"id": 7176,
+			"name": "Eleve Life",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7176/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 98,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Eleve Life",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 7183,
+			"name": "Loja Madesa",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7183/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 3797,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Loja Madesa",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 7202,
+			"name": "PDV PRINT EMBALAGENS",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7202/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1683,
+			"maxCommission": 4.425000000000001,
+			"events": [
+				{
+					"event": "Vendas - PDV PRINT EMBALAGENS",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.044250000000000005
+				}
+			]
+		},
+		{
+			"id": 7207,
+			"name": "Flormel",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7207/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 159,
+			"maxCommission": 5.3100000000000005,
+			"events": [
+				{
+					"event": "vendas flormel",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05310000000000001
+				}
+			]
+		},
+		{
+			"id": 7233,
+			"name": "Ágape Moda",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7233/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 678,
+			"maxCommission": 8.1,
+			"events": [
+				{
+					"event": "Moda - Vestuário",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.081
+				},
+				{
+					"event": "Moda - Acessórios",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.081
+				},
+				{
+					"event": "Livraria – Geral",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0594
+				},
+				{
+					"event": "Imagens de Santos - Decoração",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.054000000000000006
+				},
+				{
+					"event": "Vendas - Agape",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0432
+				},
+				{
+					"event": "Infantil - Brinquedos",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0432
+				}
+			]
+		},
+		{
+			"id": 7238,
+			"name": "FSA Cajons",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7238/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 291,
+			"maxCommission": 2.7,
+			"events": [
+				{
+					"event": "Vendas - Loja Fsa Cajons",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.027000000000000003
+				}
+			]
+		},
+		{
+			"id": 7248,
+			"name": "RevendeDog'$",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7248/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 69,
+			"maxCommission": 4.32,
+			"events": [
+				{
+					"event": "Vendas - Dog's care",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0432
+				}
+			]
+		},
+		{
+			"id": 7253,
+			"name": "Vapza",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7253/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 58,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Vapza",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 7261,
+			"name": "Me Seduza",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7261/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 791,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Me Seduza",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 7401,
+			"name": "Shop JM",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7401/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 7327,
+			"maxCommission": 4.720000000000001,
+			"events": [
+				{
+					"event": "Vendas - Shop JM",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.047200000000000006
+				}
+			]
+		},
+		{
+			"id": 7414,
+			"name": "Bendita Seja",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7414/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 2465,
+			"maxCommission": 8.850000000000001,
+			"events": [
+				{
+					"event": "Bendita Seja - vendas",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.08850000000000001
+				}
+			]
+		},
+		{
+			"id": 7493,
+			"name": "Aloe Vera Shop",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7493/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 190,
+			"maxCommission": 11.800000000000002,
+			"events": [
+				{
+					"event": "Vendas - Aloe Vera Shop",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.11800000000000002
+				}
+			]
+		},
+		{
+			"id": 7534,
+			"name": "Secret Outlet",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7534/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 17641,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Secret Outlet",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 7574,
+			"name": "Kidy Calçados",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7574/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 2420,
+			"maxCommission": 9.180000000000001,
+			"events": [
+				{
+					"event": "Vendas - Kidy",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0918
+				}
+			]
+		},
+		{
+			"id": 7600,
+			"name": "OpenBox2",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7600/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 5937,
+			"maxCommission": 4.720000000000001,
+			"events": [
+				{
+					"event": "Vendas - Openbox2",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.047200000000000006
+				}
+			]
+		},
+		{
+			"id": 7625,
+			"name": "Cirurgica Sinete",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7625/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1533,
+			"maxCommission": 8.555,
+			"events": [
+				{
+					"event": "Vendas Sinete",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.08555
+				}
+			]
+		},
+		{
+			"id": 7667,
+			"name": "Everlux Store",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7667/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 1367,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas - Everlux Store",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 7754,
+			"name": "Parazy E-commerce",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7754/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 205,
+			"maxCommission": 4.720000000000001,
+			"events": [
+				{
+					"event": "Vendas - Parazy E-commerce",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.047200000000000006
+				}
+			]
+		},
+		{
+			"id": 7804,
+			"name": "DLK",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7804/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 7750,
+			"maxCommission": 5.4,
+			"events": [
+				{
+					"event": "Calçados",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.054000000000000006
+				},
+				{
+					"event": "Demais categorias",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.027000000000000003
+				}
+			]
+		},
+		{
+			"id": 7813,
+			"name": "Livrarias Curitiba",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7813/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 34,
+			"maxCommission": 5.074,
+			"events": [
+				{
+					"event": "Vendas - Livraria Curitiba",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05074
+				}
+			]
+		},
+		{
+			"id": 7836,
+			"name": "Empório das Toalhas",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7836/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 3672,
+			"maxCommission": 5.94,
+			"events": [
+				{
+					"event": "Vendas Empório das Toalhas",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0594
+				}
+			]
+		},
+		{
+			"id": 7848,
+			"name": "MP Brinquedos",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7848/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 2976,
+			"maxCommission": 3.54,
+			"events": [
+				{
+					"event": "Vendas - MP Brinquedos",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0354
+				}
+			]
+		},
+		{
+			"id": 7849,
+			"name": "Ano Zero",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7849/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 3605,
+			"maxCommission": 7.08,
+			"events": [
+				{
+					"event": "Vendas Ano Zero",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0708
+				}
+			]
+		},
+		{
+			"id": 7863,
+			"name": "Brandili",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7863/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 2113,
+			"maxCommission": 3.7800000000000007,
+			"events": [
+				{
+					"event": "Vendas - Brandili",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.03780000000000001
+				}
+			]
+		},
+		{
+			"id": 7913,
+			"name": "Cristais Cá d'Oro",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7913/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 539,
+			"maxCommission": 7.560000000000001,
+			"events": [
+				{
+					"event": "Vendas Cristais Cá d'Oro",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.07560000000000001
+				}
+			]
+		},
+		{
+			"id": 7920,
+			"name": "Caldo Bom",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7920/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 287,
+			"maxCommission": 8.850000000000001,
+			"events": [
+				{
+					"event": "Vendas Caldo Bom",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.08850000000000001
+				}
+			]
+		},
+		{
+			"id": 7928,
+			"name": "VENTURESHOP",
+			"thumbnail": "https://www.lomadee.com/programas/BR/7928/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 4271,
+			"maxCommission": 3.2399999999999998,
+			"events": [
+				{
+					"event": "Bicicleta",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0324
+				},
+				{
+					"event": "Camping",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.024300000000000002
+				},
+				{
+					"event": "Arquearia",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0216
+				},
+				{
+					"event": "Airsoft",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0216
+				},
+				{
+					"event": "Tiro Esportivo",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0162
+				},
+				{
+					"event": "Vestuário",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0162
+				},
+				{
+					"event": "Vendas Ventureshop",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0162
+				},
+				{
+					"event": "Facas",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0162
+				}
+			]
+		},
+		{
+			"id": 8042,
+			"name": "NutriBlue",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8042/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 150,
+			"maxCommission": 7.560000000000001,
+			"events": [
+				{
+					"event": "Vendas NutriBlue",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.07560000000000001
+				}
+			]
+		},
+		{
+			"id": 8092,
+			"name": "Speedo",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8092/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 859,
+			"maxCommission": 7.08,
+			"events": [
+				{
+					"event": "vendas speedo",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0708
+				}
+			]
+		},
+		{
+			"id": 8249,
+			"name": "Rope Store",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8249/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 649,
+			"maxCommission": 5.900000000000001,
+			"events": [
+				{
+					"event": "Vendas Rope Store",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05900000000000001
+				}
+			]
+		},
+		{
+			"id": 8314,
+			"name": "Super Pro Atacado",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8314/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 6250,
+			"maxCommission": 2.3600000000000003,
+			"events": [
+				{
+					"event": "Venda (MêsConsumidor)",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.023600000000000003
+				},
+				{
+					"event": "Super Pro Atacado",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.020650000000000005
+				}
+			]
+		},
+		{
+			"id": 8340,
+			"name": "Cervejabox",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8340/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 948,
+			"maxCommission": 5.3100000000000005,
+			"events": [
+				{
+					"event": "venda Cerveja box",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05310000000000001
+				}
+			]
+		},
+		{
+			"id": 8349,
+			"name": "Enxovais Ibitinga",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8349/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 4544,
+			"maxCommission": 5.605000000000001,
+			"events": [
+				{
+					"event": "Vendas Enxovais Ibitinga",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.05605000000000001
+				}
+			]
+		},
+		{
+			"id": 8358,
+			"name": "Desconto Aqui",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8358/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 47,
+			"maxCommission": 3.54,
+			"events": [
+				{
+					"event": "Vendas - Desconto Aqui",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0354
+				}
+			]
+		},
+		{
+			"id": 8398,
+			"name": "Ortope",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8398/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 740,
+			"maxCommission": 7.08,
+			"events": [
+				{
+					"event": "Vendas Ortopé",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0708
+				}
+			]
+		},
+		{
+			"id": 8456,
+			"name": "Loja Belliz",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8456/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 784,
+			"maxCommission": 7.08,
+			"events": [
+				{
+					"event": "Vendas Loja Belliz",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.0708
+				}
+			]
+		},
+		{
+			"id": 8562,
+			"name": "Skeptic",
+			"thumbnail": "https://www.lomadee.com/programas/BR/8562/logo_115x76.png",
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"hasOffer": 84,
+			"maxCommission": 8.850000000000001,
+			"events": [
+				{
+					"event": "Vendas - Skeptic",
+					"eventType": "Sale",
+					"fixedCommission": false,
+					"commission": 0.08850000000000001
+				}
+			]
+		}
+	]
+}
