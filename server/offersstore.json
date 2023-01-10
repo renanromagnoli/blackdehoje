@@ -1,0 +1,321 @@
+{
+	"requestInfo": {
+		"status": "OK",
+		"message": "SUCCESS",
+		"generatedDate": null
+	},
+	"pagination": {
+		"page": 1,
+		"size": 12,
+		"totalSize": 1411,
+		"totalPage": 118,
+		"sortValues": [
+			"0.0",
+			"1667947972000",
+			"158",
+			"141364"
+		]
+	},
+	"offers": [
+		{
+			"id": "113550",
+			"name": "Perfume Be Emotion - Lovely - Para Elas | 100ml",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/388775_2",
+			"price": 169.95,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 5,
+				"value": 33.99
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "113554",
+			"name": "Perfume Be Emotion - Shine - Para Elas | 100ml",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/595658_2",
+			"price": 169.95,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 5,
+				"value": 33.99
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "113560",
+			"name": "Perfume Be Emotion - Diamond Man - Para Eles | 100ml",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/595816_2",
+			"price": 169.95,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 5,
+				"value": 33.99
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "114139",
+			"name": "Nécessaire Be Emotion |M",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/589197_2",
+			"price": 39.98,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 2,
+				"value": 19.99
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "121289",
+			"name": "Modelador Corporal Feminino - Regata Fitnow Polishop - T-Shirt | Cinza - P",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/674687_2",
+			"price": 89.96,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 4,
+				"value": 22.49
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "141350",
+			"name": "Shampoo Be Emotion - Professional - Nutrah | Be Emotion",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/642627_2",
+			"price": 59.97,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 3,
+				"value": 19.99
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "141352",
+			"name": "Máscara de Tratamento Be Emotion - Professional - Nutrah | Be Emotion",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/642640_2",
+			"price": 69.99,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 3,
+				"value": 23.33
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "141354",
+			"name": "Óleo Sérum Be Emotion - Professional - Nutrah | Óleo Sérum",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/680585_2",
+			"price": 69.99,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 3,
+				"value": 23.33
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "141356",
+			"name": "Óleo Capilar  Be Emotion - Leave In - Professional - Nutrah | Be emotion",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/680573_2",
+			"price": 69.99,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 3,
+				"value": 23.33
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "141360",
+			"name": "Shampoo Be Emotion - Professional - Pure Control | Be Emotion",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/642629_2",
+			"price": 59.97,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 3,
+				"value": 19.99
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "141362",
+			"name": "Spray Capilar Be Emotion - Professional - Diamond | Be Emotion",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/642600_2",
+			"price": 69.99,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 3,
+				"value": 23.33
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "141364",
+			"name": "Condicionador Be Emotion - Professional - Diamond | Be Emotion",
+			"category": {
+				"id": 0,
+				"name": "Geral",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://polishop.vteximg.com.br/arquivos/ids/642660_2",
+			"price": 59.97,
+			"discount": 0.0,
+			"installment": {
+				"quantity": 3,
+				"value": 19.99
+			},
+			"store": {
+				"id": 158,
+				"name": "Polishop",
+				"thumbnail": "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		}
+	]
+}

@@ -1,0 +1,332 @@
+{
+	"requestInfo": {
+		"status": "OK",
+		"message": "SUCCESS",
+		"generatedDate": null
+	},
+	"pagination": {
+		"page": 1,
+		"size": 12,
+		"totalSize": 109,
+		"totalPage": 10,
+		"sortValues": [
+			"1673045259000",
+			"6937",
+			"597112135"
+		]
+	},
+	"offers": [
+		{
+			"id": "585582615",
+			"name": "Camiseta Esportiva com Estampa em Lettering Emborrachado",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/585582527/large/1.jpg",
+			"price": 39.9,
+			"priceFrom": 49.9,
+			"discount": 20.04,
+			"installment": {
+				"quantity": 13990,
+				"value": 39.9
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "597025630",
+			"name": "Camiseta Esportiva com Estampa em Lettering Emborrachado",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/597025621/large/1.jpg",
+			"price": 39.9,
+			"priceFrom": 49.9,
+			"discount": 20.04,
+			"installment": {
+				"quantity": 13990,
+				"value": 39.9
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "598274128",
+			"name": "Camiseta Esportiva com Estampa Pontilhada Geométrica",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/598274136/large/1.jpg",
+			"price": 39.9,
+			"priceFrom": 59.9,
+			"discount": 33.39,
+			"installment": {
+				"quantity": 13990,
+				"value": 39.9
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "629445883",
+			"name": "Camiseta Esportiva Manga Curta com Estampa Retangular em Listras",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/629445912/large/1.jpg",
+			"price": 39.9,
+			"priceFrom": 69.9,
+			"discount": 42.92,
+			"installment": {
+				"quantity": 13990,
+				"value": 39.9
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "550896577",
+			"name": "Camiseta Esportiva com Estampa Linhas Efeito 3D",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/550896593/large/1.jpg",
+			"price": 39.9,
+			"priceFrom": 49.9,
+			"discount": 20.04,
+			"installment": {
+				"quantity": 13990,
+				"value": 39.9
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "551274542",
+			"name": "Camiseta Esportiva Manga Curta com Refletivo na Lateral e Recorte nas Costas",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/551274534/large/3.jpg",
+			"price": 49.9,
+			"priceFrom": 59.9,
+			"discount": 16.69,
+			"installment": {
+				"quantity": 14990,
+				"value": 24.95
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "562101938",
+			"name": "Camiseta Esportiva Manga Curta com Refletivo na Lateral e Recorte nas Costas",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/562101911/large/1.jpg",
+			"price": 29.9,
+			"priceFrom": 59.9,
+			"discount": 50.08,
+			"installment": {
+				"quantity": 12990,
+				"value": 29.9
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "578982135",
+			"name": "Camiseta Esportiva Manga Curta com Refletivo na Lateral e Recorte nas Costas",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/578982143/large/1.jpg",
+			"price": 49.9,
+			"priceFrom": 59.9,
+			"discount": 16.69,
+			"installment": {
+				"quantity": 14990,
+				"value": 24.95
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "578982151",
+			"name": "Camiseta Esportiva Manga Curta com Refletivo na Lateral e Recorte nas Costas",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/578982143/large/1.jpg",
+			"price": 49.9,
+			"priceFrom": 59.9,
+			"discount": 16.69,
+			"installment": {
+				"quantity": 14990,
+				"value": 24.95
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "578982160",
+			"name": "Camiseta Esportiva Manga Curta com Refletivo na Lateral e Recorte nas Costas",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/578982143/large/1.jpg",
+			"price": 49.9,
+			"priceFrom": 59.9,
+			"discount": 16.69,
+			"installment": {
+				"quantity": 14990,
+				"value": 24.95
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "597087187",
+			"name": "Camiseta Esportiva Estampa Champ Mode - Plus Size",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/597087187/large/1.jpg",
+			"price": 29.9,
+			"priceFrom": 69.9,
+			"discount": 57.22,
+			"installment": {
+				"quantity": 12990,
+				"value": 29.9
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		},
+		{
+			"id": "597112135",
+			"name": "Camiseta Esportiva Manga Longa com Estampa em Lettering Degradê",
+			"category": {
+				"id": 3587,
+				"name": "Camiseta Esportiva",
+				"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+			},
+			"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+			"thumbnail": "https://img.lojasrenner.com.br/item/597112127/large/1.jpg",
+			"price": 49.9,
+			"priceFrom": 79.9,
+			"discount": 37.55,
+			"installment": {
+				"quantity": 14990,
+				"value": 24.95
+			},
+			"store": {
+				"id": 6937,
+				"name": "Lojas Renner",
+				"thumbnail": "https://www.lomadee.com/programas/BR/6937/imagemBox_80x60.png",
+				"link": "https://developer.lomadee.com/redir/validation/?sourceId=22691114&appToken=1667860428264721b20d1",
+				"invisible": false,
+				"needPermission": false
+			}
+		}
+	]
+}

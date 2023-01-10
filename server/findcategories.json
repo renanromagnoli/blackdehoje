@@ -1,0 +1,3700 @@
+{
+	"requestInfo": {
+		"status": "OK",
+		"message": "SUCCESS",
+		"generatedDate": null
+	},
+	"pagination": {
+		"page": 1,
+		"size": 614,
+		"totalSize": 614,
+		"totalPage": 1,
+		"sortValues": null
+	},
+	"categories": [
+		{
+			"id": 1,
+			"name": "Eletrônicos",
+			"hasOffer": 1178,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1?sourceId=22691114"
+		},
+		{
+			"id": 2,
+			"name": "Informática",
+			"hasOffer": 45,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2?sourceId=22691114"
+		},
+		{
+			"id": 16,
+			"name": "Fone de Ouvido / Headset",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/16?sourceId=22691114"
+		},
+		{
+			"id": 126,
+			"name": "Microondas",
+			"hasOffer": 23,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/126?sourceId=22691114"
+		},
+		{
+			"id": 138,
+			"name": "Fogão",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/138?sourceId=22691114"
+		},
+		{
+			"id": 143,
+			"name": "Exaustor / Depurador",
+			"hasOffer": 16,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/143?sourceId=22691114"
+		},
+		{
+			"id": 183,
+			"name": "Brinquedos de Controle Remoto",
+			"hasOffer": 71,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/183?sourceId=22691114"
+		},
+		{
+			"id": 185,
+			"name": "Carrinhos / Veículos",
+			"hasOffer": 28,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/185?sourceId=22691114"
+		},
+		{
+			"id": 194,
+			"name": "Bonecas",
+			"hasOffer": 54,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/194?sourceId=22691114"
+		},
+		{
+			"id": 198,
+			"name": "Pelúcias",
+			"hasOffer": 164,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/198?sourceId=22691114"
+		},
+		{
+			"id": 204,
+			"name": "Playground",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/204?sourceId=22691114"
+		},
+		{
+			"id": 215,
+			"name": "Quebra-Cabeça",
+			"hasOffer": 232,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/215?sourceId=22691114"
+		},
+		{
+			"id": 247,
+			"name": "Pet Shop",
+			"hasOffer": 168,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/247?sourceId=22691114"
+		},
+		{
+			"id": 262,
+			"name": "Antisépticos",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/262?sourceId=22691114"
+		},
+		{
+			"id": 272,
+			"name": "Higiene",
+			"hasOffer": 140,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/272?sourceId=22691114"
+		},
+		{
+			"id": 284,
+			"name": "Sabonete Líquido",
+			"hasOffer": 13,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/284?sourceId=22691114"
+		},
+		{
+			"id": 288,
+			"name": "Cabelo",
+			"hasOffer": 3475,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/288?sourceId=22691114"
+		},
+		{
+			"id": 291,
+			"name": "Higiene Bucal",
+			"hasOffer": 105,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/291?sourceId=22691114"
+		},
+		{
+			"id": 292,
+			"name": "Infantil",
+			"hasOffer": 85,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/292?sourceId=22691114"
+		},
+		{
+			"id": 296,
+			"name": "Rosto",
+			"hasOffer": 217,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/296?sourceId=22691114"
+		},
+		{
+			"id": 298,
+			"name": "Creme Redutor Anti-Celulite",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/298?sourceId=22691114"
+		},
+		{
+			"id": 320,
+			"name": "Bases",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/320?sourceId=22691114"
+		},
+		{
+			"id": 330,
+			"name": "Fixador para Cabelo",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/330?sourceId=22691114"
+		},
+		{
+			"id": 479,
+			"name": "Sabonete para Bebê",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/479?sourceId=22691114"
+		},
+		{
+			"id": 991,
+			"name": "Aves",
+			"hasOffer": 59,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/991?sourceId=22691114"
+		},
+		{
+			"id": 1326,
+			"name": "Depilação",
+			"hasOffer": 25,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1326?sourceId=22691114"
+		},
+		{
+			"id": 1333,
+			"name": "Arco e Flecha",
+			"hasOffer": 32,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1333?sourceId=22691114"
+		},
+		{
+			"id": 1466,
+			"name": "Abridor",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1466?sourceId=22691114"
+		},
+		{
+			"id": 1487,
+			"name": "Cabide",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1487?sourceId=22691114"
+		},
+		{
+			"id": 2037,
+			"name": "Gelatina",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2037?sourceId=22691114"
+		},
+		{
+			"id": 2340,
+			"name": "Blocos de Montar",
+			"hasOffer": 401,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2340?sourceId=22691114"
+		},
+		{
+			"id": 2350,
+			"name": "Creme para as Mãos",
+			"hasOffer": 29,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2350?sourceId=22691114"
+		},
+		{
+			"id": 2413,
+			"name": "Tanquinho",
+			"hasOffer": 17,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2413?sourceId=22691114"
+		},
+		{
+			"id": 2422,
+			"name": "Multiprocessador de Alimentos",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2422?sourceId=22691114"
+		},
+		{
+			"id": 2423,
+			"name": "Lavadora de Alta Pressão",
+			"hasOffer": 19,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2423?sourceId=22691114"
+		},
+		{
+			"id": 2472,
+			"name": "Moda Feminina",
+			"hasOffer": 4937,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2472?sourceId=22691114"
+		},
+		{
+			"id": 2473,
+			"name": "Calça Masculina",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2473?sourceId=22691114"
+		},
+		{
+			"id": 2476,
+			"name": "Camisa Masculina",
+			"hasOffer": 23,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2476?sourceId=22691114"
+		},
+		{
+			"id": 2482,
+			"name": "Blusa Feminina",
+			"hasOffer": 116,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2482?sourceId=22691114"
+		},
+		{
+			"id": 2498,
+			"name": "Camiseta Infantil",
+			"hasOffer": 658,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2498?sourceId=22691114"
+		},
+		{
+			"id": 2500,
+			"name": "Calça Infantil",
+			"hasOffer": 458,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2500?sourceId=22691114"
+		},
+		{
+			"id": 2501,
+			"name": "Blusa Infantil",
+			"hasOffer": 1051,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2501?sourceId=22691114"
+		},
+		{
+			"id": 2713,
+			"name": "Cama de Casal",
+			"hasOffer": 122367,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2713?sourceId=22691114"
+		},
+		{
+			"id": 2736,
+			"name": "Panelas",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2736?sourceId=22691114"
+		},
+		{
+			"id": 2771,
+			"name": "Jarra",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2771?sourceId=22691114"
+		},
+		{
+			"id": 2857,
+			"name": "Calçados",
+			"hasOffer": 89572,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2857?sourceId=22691114"
+		},
+		{
+			"id": 2915,
+			"name": "Cadeira",
+			"hasOffer": 69,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2915?sourceId=22691114"
+		},
+		{
+			"id": 3008,
+			"name": "Porta-Joias",
+			"hasOffer": 80,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3008?sourceId=22691114"
+		},
+		{
+			"id": 3052,
+			"name": "Equipamentos de Medição Diversos",
+			"hasOffer": 22,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3052?sourceId=22691114"
+		},
+		{
+			"id": 3102,
+			"name": "Triciclo Infantil",
+			"hasOffer": 133,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3102?sourceId=22691114"
+		},
+		{
+			"id": 3282,
+			"name": "Batom",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3282?sourceId=22691114"
+		},
+		{
+			"id": 3364,
+			"name": "Fraldas Geriátricas",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3364?sourceId=22691114"
+		},
+		{
+			"id": 3442,
+			"name": "Perfume",
+			"hasOffer": 2867,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3442?sourceId=22691114"
+		},
+		{
+			"id": 3449,
+			"name": "Pote",
+			"hasOffer": 36,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3449?sourceId=22691114"
+		},
+		{
+			"id": 3537,
+			"name": "Organizador",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3537?sourceId=22691114"
+		},
+		{
+			"id": 3555,
+			"name": "Papel",
+			"hasOffer": 1589,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3555?sourceId=22691114"
+		},
+		{
+			"id": 3587,
+			"name": "Camiseta Esportiva",
+			"hasOffer": 4611,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3587?sourceId=22691114"
+		},
+		{
+			"id": 3677,
+			"name": "Modelador / Protetor para os Seios",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3677?sourceId=22691114"
+		},
+		{
+			"id": 3697,
+			"name": "Relógio de Mesa / Despertador",
+			"hasOffer": 12,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3697?sourceId=22691114"
+		},
+		{
+			"id": 3795,
+			"name": "Pasta",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3795?sourceId=22691114"
+		},
+		{
+			"id": 3843,
+			"name": "Outras Joias e Bijuterias",
+			"hasOffer": 749,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3843?sourceId=22691114"
+		},
+		{
+			"id": 4029,
+			"name": "Suplemento",
+			"hasOffer": 480,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4029?sourceId=22691114"
+		},
+		{
+			"id": 4182,
+			"name": "Escorregador",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4182?sourceId=22691114"
+		},
+		{
+			"id": 4246,
+			"name": "Assadeira",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4246?sourceId=22691114"
+		},
+		{
+			"id": 4314,
+			"name": "Garrafa Térmica",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4314?sourceId=22691114"
+		},
+		{
+			"id": 4325,
+			"name": "Vestidos para Cachorro",
+			"hasOffer": 71,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4325?sourceId=22691114"
+		},
+		{
+			"id": 4334,
+			"name": "Camisas / Camisetas para Cachorro",
+			"hasOffer": 63,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4334?sourceId=22691114"
+		},
+		{
+			"id": 4362,
+			"name": "Chaleira",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4362?sourceId=22691114"
+		},
+		{
+			"id": 4363,
+			"name": "Frigideira",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4363?sourceId=22691114"
+		},
+		{
+			"id": 4407,
+			"name": "Faca",
+			"hasOffer": 65,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4407?sourceId=22691114"
+		},
+		{
+			"id": 4673,
+			"name": "Acessórios para Celular e Smartphone",
+			"hasOffer": 27,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4673?sourceId=22691114"
+		},
+		{
+			"id": 4871,
+			"name": "Reparador de Pontas para Cabelo",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4871?sourceId=22691114"
+		},
+		{
+			"id": 5817,
+			"name": "Carrinho para Bebê",
+			"hasOffer": 85,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5817?sourceId=22691114"
+		},
+		{
+			"id": 5942,
+			"name": "Outras Máquinas / Acessórios",
+			"hasOffer": 13,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5942?sourceId=22691114"
+		},
+		{
+			"id": 5980,
+			"name": "Cortador",
+			"hasOffer": 21,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5980?sourceId=22691114"
+		},
+		{
+			"id": 6009,
+			"name": "Esteira",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6009?sourceId=22691114"
+		},
+		{
+			"id": 6380,
+			"name": "Squash",
+			"hasOffer": 1516,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6380?sourceId=22691114"
+		},
+		{
+			"id": 6504,
+			"name": "Frigobar",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6504?sourceId=22691114"
+		},
+		{
+			"id": 6508,
+			"name": "Ralador",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6508?sourceId=22691114"
+		},
+		{
+			"id": 6550,
+			"name": "Vestido para Bebê",
+			"hasOffer": 37,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6550?sourceId=22691114"
+		},
+		{
+			"id": 6555,
+			"name": "Utensilio Diverso para la Madre",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6555?sourceId=22691114"
+		},
+		{
+			"id": 6752,
+			"name": "Fronha",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6752?sourceId=22691114"
+		},
+		{
+			"id": 6753,
+			"name": "Jogo de Cama",
+			"hasOffer": 122,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6753?sourceId=22691114"
+		},
+		{
+			"id": 6836,
+			"name": "Miniaturas Colecionáveis",
+			"hasOffer": 132,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6836?sourceId=22691114"
+		},
+		{
+			"id": 6976,
+			"name": "Mala",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6976?sourceId=22691114"
+		},
+		{
+			"id": 7096,
+			"name": "Aparelho de Pressão",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7096?sourceId=22691114"
+		},
+		{
+			"id": 7168,
+			"name": "Outras Matérias Primas para Artesanato",
+			"hasOffer": 65,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7168?sourceId=22691114"
+		},
+		{
+			"id": 7172,
+			"name": "LD",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7172?sourceId=22691114"
+		},
+		{
+			"id": 7312,
+			"name": "Serviços de Manicure / Pedicure",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7312?sourceId=22691114"
+		},
+		{
+			"id": 7438,
+			"name": "Partitura / Método de Estudo Musical",
+			"hasOffer": 140,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7438?sourceId=22691114"
+		},
+		{
+			"id": 7498,
+			"name": "Óticas",
+			"hasOffer": 43,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7498?sourceId=22691114"
+		},
+		{
+			"id": 7593,
+			"name": "Poltrona",
+			"hasOffer": 29,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7593?sourceId=22691114"
+		},
+		{
+			"id": 7643,
+			"name": "Jaqueta Infantil",
+			"hasOffer": 306,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7643?sourceId=22691114"
+		},
+		{
+			"id": 7651,
+			"name": "Regata Masculina",
+			"hasOffer": 45,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7651?sourceId=22691114"
+		},
+		{
+			"id": 7691,
+			"name": "Confecções de Roupas Femininas",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7691?sourceId=22691114"
+		},
+		{
+			"id": 7737,
+			"name": "Estante",
+			"hasOffer": 28,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7737?sourceId=22691114"
+		},
+		{
+			"id": 7743,
+			"name": "Cal",
+			"hasOffer": 45,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7743?sourceId=22691114"
+		},
+		{
+			"id": 7747,
+			"name": "Handebol",
+			"hasOffer": 143,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7747?sourceId=22691114"
+		},
+		{
+			"id": 7757,
+			"name": "Bolsas / Malas",
+			"hasOffer": 35,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7757?sourceId=22691114"
+		},
+		{
+			"id": 7795,
+			"name": "Botas Masculinas",
+			"hasOffer": 72,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7795?sourceId=22691114"
+		},
+		{
+			"id": 7868,
+			"name": "Serviços de Clínicas de Tratamento Capilar",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7868?sourceId=22691114"
+		},
+		{
+			"id": 7892,
+			"name": "Brindes / Materiais Promocionais",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7892?sourceId=22691114"
+		},
+		{
+			"id": 7970,
+			"name": "Serviços de Body Piercing",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7970?sourceId=22691114"
+		},
+		{
+			"id": 8040,
+			"name": "Serviços de Equitação Terapêutica",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8040?sourceId=22691114"
+		},
+		{
+			"id": 8079,
+			"name": "Beliche",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8079?sourceId=22691114"
+		},
+		{
+			"id": 8085,
+			"name": "Serviços de Salões de Beleza",
+			"hasOffer": 45,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8085?sourceId=22691114"
+		},
+		{
+			"id": 8160,
+			"name": "Pênis / Vibrador",
+			"hasOffer": 37,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8160?sourceId=22691114"
+		},
+		{
+			"id": 8186,
+			"name": "Outros Serviços / Joias / Relógios / Óticas",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8186?sourceId=22691114"
+		},
+		{
+			"id": 8239,
+			"name": "Registro de Marcas / Patentes",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8239?sourceId=22691114"
+		},
+		{
+			"id": 8421,
+			"name": "Conserto de Celulares",
+			"hasOffer": 35,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8421?sourceId=22691114"
+		},
+		{
+			"id": 8462,
+			"name": "Organização de Feiras Comerciais / Industriais",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8462?sourceId=22691114"
+		},
+		{
+			"id": 8613,
+			"name": "Aluguel de Mesas / Cadeiras",
+			"hasOffer": 73,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8613?sourceId=22691114"
+		},
+		{
+			"id": 8689,
+			"name": "Serviços de Acompanhantes para Enfermos / Idosos",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8689?sourceId=22691114"
+		},
+		{
+			"id": 8691,
+			"name": "Adesivo",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8691?sourceId=22691114"
+		},
+		{
+			"id": 8704,
+			"name": "Acessórios para Pia / Lavatório",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8704?sourceId=22691114"
+		},
+		{
+			"id": 8709,
+			"name": "Sapateira",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8709?sourceId=22691114"
+		},
+		{
+			"id": 8715,
+			"name": "Boias",
+			"hasOffer": 42,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8715?sourceId=22691114"
+		},
+		{
+			"id": 8751,
+			"name": "Iluminação",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8751?sourceId=22691114"
+		},
+		{
+			"id": 8807,
+			"name": "Trena",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8807?sourceId=22691114"
+		},
+		{
+			"id": 8938,
+			"name": "Bateria",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8938?sourceId=22691114"
+		},
+		{
+			"id": 9052,
+			"name": "Papel de Parede",
+			"hasOffer": 27,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9052?sourceId=22691114"
+		},
+		{
+			"id": 9078,
+			"name": "Serviços de Farmácias de Manipulação",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9078?sourceId=22691114"
+		},
+		{
+			"id": 9172,
+			"name": "Bicama",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9172?sourceId=22691114"
+		},
+		{
+			"id": 9470,
+			"name": "Skate",
+			"hasOffer": 5883,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9470?sourceId=22691114"
+		},
+		{
+			"id": 9513,
+			"name": "Aro para Bicicleta",
+			"hasOffer": 32,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9513?sourceId=22691114"
+		},
+		{
+			"id": 9566,
+			"name": "Capa para Sofá",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9566?sourceId=22691114"
+		},
+		{
+			"id": 9574,
+			"name": "Planos para Telefonia Fixa",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9574?sourceId=22691114"
+		},
+		{
+			"id": 9813,
+			"name": "Dermocosméticos",
+			"hasOffer": 1120,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9813?sourceId=22691114"
+		},
+		{
+			"id": 9831,
+			"name": "Flores",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9831?sourceId=22691114"
+		},
+		{
+			"id": 9837,
+			"name": "Projetos de Home Theater",
+			"hasOffer": 335,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9837?sourceId=22691114"
+		},
+		{
+			"id": 9845,
+			"name": "Moda Praia Infantil",
+			"hasOffer": 21,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9845?sourceId=22691114"
+		},
+		{
+			"id": 9919,
+			"name": "Toca Discos",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9919?sourceId=22691114"
+		},
+		{
+			"id": 9941,
+			"name": "Acessórios e Peças para Notebook",
+			"hasOffer": 97,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9941?sourceId=22691114"
+		},
+		{
+			"id": 9953,
+			"name": "Mesa de Tosa",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9953?sourceId=22691114"
+		},
+		{
+			"id": 9968,
+			"name": "Lula",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9968?sourceId=22691114"
+		},
+		{
+			"id": 9969,
+			"name": "Polvo",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9969?sourceId=22691114"
+		},
+		{
+			"id": 9991,
+			"name": "Biscoito Cream Cracker",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9991?sourceId=22691114"
+		},
+		{
+			"id": 10008,
+			"name": "Bermuda Infantil",
+			"hasOffer": 243,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10008?sourceId=22691114"
+		},
+		{
+			"id": 10009,
+			"name": "Macacão Infantil",
+			"hasOffer": 42,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10009?sourceId=22691114"
+		},
+		{
+			"id": 10013,
+			"name": "Calça Masculina Plus Size",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10013?sourceId=22691114"
+		},
+		{
+			"id": 10029,
+			"name": "Acessórios de Segurança para Rodeio",
+			"hasOffer": 56,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10029?sourceId=22691114"
+		},
+		{
+			"id": 10177,
+			"name": "Ave Inteira",
+			"hasOffer": 17,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10177?sourceId=22691114"
+		},
+		{
+			"id": 10274,
+			"name": "Maiô",
+			"hasOffer": 33,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10274?sourceId=22691114"
+		},
+		{
+			"id": 10300,
+			"name": "Piscina de Bolinhas",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10300?sourceId=22691114"
+		},
+		{
+			"id": 10355,
+			"name": "Aluguel de Aquecedores",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10355?sourceId=22691114"
+		},
+		{
+			"id": 10417,
+			"name": "Top Esportivo",
+			"hasOffer": 463,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10417?sourceId=22691114"
+		},
+		{
+			"id": 10482,
+			"name": "Petisqueira",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10482?sourceId=22691114"
+		},
+		{
+			"id": 10515,
+			"name": "Aço",
+			"hasOffer": 262,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10515?sourceId=22691114"
+		},
+		{
+			"id": 10528,
+			"name": "Bolsa Infantil",
+			"hasOffer": 17,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10528?sourceId=22691114"
+		},
+		{
+			"id": 10560,
+			"name": "Sapatênis Masculinos",
+			"hasOffer": 185,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10560?sourceId=22691114"
+		},
+		{
+			"id": 10579,
+			"name": "Outros Acessórios para Solda",
+			"hasOffer": 143,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10579?sourceId=22691114"
+		},
+		{
+			"id": 10599,
+			"name": "Creme para Pentear para Bebê",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10599?sourceId=22691114"
+		},
+		{
+			"id": 10614,
+			"name": "Cabo USB",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10614?sourceId=22691114"
+		},
+		{
+			"id": 10617,
+			"name": "Box para Banheiro",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10617?sourceId=22691114"
+		},
+		{
+			"id": 10619,
+			"name": "Gabinete para Banheiro",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10619?sourceId=22691114"
+		},
+		{
+			"id": 10623,
+			"name": "Colchonete",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10623?sourceId=22691114"
+		},
+		{
+			"id": 10643,
+			"name": "Lancetas",
+			"hasOffer": 12,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10643?sourceId=22691114"
+		},
+		{
+			"id": 10730,
+			"name": "Cadeirão para Bebê",
+			"hasOffer": 36,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10730?sourceId=22691114"
+		},
+		{
+			"id": 10841,
+			"name": "Anti-Olheiras",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10841?sourceId=22691114"
+		},
+		{
+			"id": 10886,
+			"name": "Arara",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10886?sourceId=22691114"
+		},
+		{
+			"id": 10897,
+			"name": "Vestido Feminino Plus Size",
+			"hasOffer": 671,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10897?sourceId=22691114"
+		},
+		{
+			"id": 10948,
+			"name": "Mesa de Centro",
+			"hasOffer": 18,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10948?sourceId=22691114"
+		},
+		{
+			"id": 10980,
+			"name": "Casaco Feminino",
+			"hasOffer": 274,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10980?sourceId=22691114"
+		},
+		{
+			"id": 10984,
+			"name": "Air Hockey",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10984?sourceId=22691114"
+		},
+		{
+			"id": 11015,
+			"name": "Suéter Masculino",
+			"hasOffer": 84,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11015?sourceId=22691114"
+		},
+		{
+			"id": 11082,
+			"name": "Mulher procura Homem",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11082?sourceId=22691114"
+		},
+		{
+			"id": 11108,
+			"name": "Outros Brinquedos Eletrônicos",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11108?sourceId=22691114"
+		},
+		{
+			"id": 11214,
+			"name": "Bomba de Óleo / Pescador para Carro",
+			"hasOffer": 660,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11214?sourceId=22691114"
+		},
+		{
+			"id": 11245,
+			"name": "Autorama, Trens e Pistas",
+			"hasOffer": 14,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11245?sourceId=22691114"
+		},
+		{
+			"id": 21,
+			"name": "Computador",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/21?sourceId=22691114"
+		},
+		{
+			"id": 31,
+			"name": "Impressoras",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/31?sourceId=22691114"
+		},
+		{
+			"id": 116,
+			"name": "Eletrodomésticos",
+			"hasOffer": 19,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/116?sourceId=22691114"
+		},
+		{
+			"id": 123,
+			"name": "Espremedor de Frutas",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/123?sourceId=22691114"
+		},
+		{
+			"id": 145,
+			"name": "Forno Elétrico",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/145?sourceId=22691114"
+		},
+		{
+			"id": 154,
+			"name": "Máquina de Costura",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/154?sourceId=22691114"
+		},
+		{
+			"id": 277,
+			"name": "Talco Antiséptico",
+			"hasOffer": 27,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/277?sourceId=22691114"
+		},
+		{
+			"id": 287,
+			"name": "Maquiagem",
+			"hasOffer": 2302,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/287?sourceId=22691114"
+		},
+		{
+			"id": 290,
+			"name": "Praia",
+			"hasOffer": 19,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/290?sourceId=22691114"
+		},
+		{
+			"id": 347,
+			"name": "Blush",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/347?sourceId=22691114"
+		},
+		{
+			"id": 478,
+			"name": "Lenço Umedecido para Bebê",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/478?sourceId=22691114"
+		},
+		{
+			"id": 482,
+			"name": "Fralda para Bebê",
+			"hasOffer": 32,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/482?sourceId=22691114"
+		},
+		{
+			"id": 502,
+			"name": "Cerveja",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/502?sourceId=22691114"
+		},
+		{
+			"id": 587,
+			"name": "Vinho",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/587?sourceId=22691114"
+		},
+		{
+			"id": 869,
+			"name": "Sal",
+			"hasOffer": 355,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/869?sourceId=22691114"
+		},
+		{
+			"id": 1344,
+			"name": "Ciclismo",
+			"hasOffer": 3679,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1344?sourceId=22691114"
+		},
+		{
+			"id": 1435,
+			"name": "Aviões",
+			"hasOffer": 36,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1435?sourceId=22691114"
+		},
+		{
+			"id": 1516,
+			"name": "Repelente",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1516?sourceId=22691114"
+		},
+		{
+			"id": 2077,
+			"name": "Cera",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2077?sourceId=22691114"
+		},
+		{
+			"id": 2127,
+			"name": "Geleia",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2127?sourceId=22691114"
+		},
+		{
+			"id": 2316,
+			"name": "Outros Produtos de Higiene Infantil",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2316?sourceId=22691114"
+		},
+		{
+			"id": 2323,
+			"name": "Cesta Básica",
+			"hasOffer": 21,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2323?sourceId=22691114"
+		},
+		{
+			"id": 2347,
+			"name": "Outros Produtos de Higiene para o Bebê",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2347?sourceId=22691114"
+		},
+		{
+			"id": 2351,
+			"name": "Outros Produtos de Higiene / Beleza",
+			"hasOffer": 298,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2351?sourceId=22691114"
+		},
+		{
+			"id": 2376,
+			"name": "Games",
+			"hasOffer": 939,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2376?sourceId=22691114"
+		},
+		{
+			"id": 2424,
+			"name": "Outros Produtos para Unhas",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2424?sourceId=22691114"
+		},
+		{
+			"id": 2481,
+			"name": "Calça Feminina",
+			"hasOffer": 658,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2481?sourceId=22691114"
+		},
+		{
+			"id": 2491,
+			"name": "Moda Íntima Feminina",
+			"hasOffer": 153,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2491?sourceId=22691114"
+		},
+		{
+			"id": 2496,
+			"name": "Moda Íntima Masculina",
+			"hasOffer": 39,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2496?sourceId=22691114"
+		},
+		{
+			"id": 2499,
+			"name": "Camisa Infantil",
+			"hasOffer": 250,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2499?sourceId=22691114"
+		},
+		{
+			"id": 2711,
+			"name": "Camas",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2711?sourceId=22691114"
+		},
+		{
+			"id": 2717,
+			"name": "Cômoda",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2717?sourceId=22691114"
+		},
+		{
+			"id": 2805,
+			"name": "Avental",
+			"hasOffer": 5557,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2805?sourceId=22691114"
+		},
+		{
+			"id": 2806,
+			"name": "Jogo Americano",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2806?sourceId=22691114"
+		},
+		{
+			"id": 2858,
+			"name": "Tênis",
+			"hasOffer": 393,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2858?sourceId=22691114"
+		},
+		{
+			"id": 2946,
+			"name": "Barraca",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2946?sourceId=22691114"
+		},
+		{
+			"id": 3000,
+			"name": "Sex Shop",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3000?sourceId=22691114"
+		},
+		{
+			"id": 3004,
+			"name": "Blazer Feminino",
+			"hasOffer": 87,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3004?sourceId=22691114"
+		},
+		{
+			"id": 3058,
+			"name": "Pijama Masculino",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3058?sourceId=22691114"
+		},
+		{
+			"id": 3219,
+			"name": "Pomada para Assaduras",
+			"hasOffer": 16,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3219?sourceId=22691114"
+		},
+		{
+			"id": 3265,
+			"name": "Cereal / Proteína em Barra",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3265?sourceId=22691114"
+		},
+		{
+			"id": 3307,
+			"name": "Shampoo 2 en 1 Infantil",
+			"hasOffer": 3092,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3307?sourceId=22691114"
+		},
+		{
+			"id": 3434,
+			"name": "Bolsa Térmica",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3434?sourceId=22691114"
+		},
+		{
+			"id": 3440,
+			"name": "Almofadas",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3440?sourceId=22691114"
+		},
+		{
+			"id": 3452,
+			"name": "Caneca",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3452?sourceId=22691114"
+		},
+		{
+			"id": 3481,
+			"name": "Short Infantil",
+			"hasOffer": 128,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3481?sourceId=22691114"
+		},
+		{
+			"id": 3495,
+			"name": "Organizadores",
+			"hasOffer": 43,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3495?sourceId=22691114"
+		},
+		{
+			"id": 3596,
+			"name": "Abajur",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3596?sourceId=22691114"
+		},
+		{
+			"id": 3660,
+			"name": "Microfone",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3660?sourceId=22691114"
+		},
+		{
+			"id": 3678,
+			"name": "Outras Peças Íntimas Femininas",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3678?sourceId=22691114"
+		},
+		{
+			"id": 3815,
+			"name": "Prolongador",
+			"hasOffer": 50,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3815?sourceId=22691114"
+		},
+		{
+			"id": 4273,
+			"name": "Filtro de Café",
+			"hasOffer": 13,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4273?sourceId=22691114"
+		},
+		{
+			"id": 4288,
+			"name": "Copo",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4288?sourceId=22691114"
+		},
+		{
+			"id": 4329,
+			"name": "Aparelhos / Conjuntos Diversos",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4329?sourceId=22691114"
+		},
+		{
+			"id": 4332,
+			"name": "Leiteira",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4332?sourceId=22691114"
+		},
+		{
+			"id": 4364,
+			"name": "Panela de Pressão",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4364?sourceId=22691114"
+		},
+		{
+			"id": 4435,
+			"name": "Toalha de Banho",
+			"hasOffer": 117,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4435?sourceId=22691114"
+		},
+		{
+			"id": 5212,
+			"name": "Camisão",
+			"hasOffer": 14,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5212?sourceId=22691114"
+		},
+		{
+			"id": 5807,
+			"name": "Babá Eletrônica",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5807?sourceId=22691114"
+		},
+		{
+			"id": 5809,
+			"name": "Berço",
+			"hasOffer": 19,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5809?sourceId=22691114"
+		},
+		{
+			"id": 5811,
+			"name": "Artigos de Segurança para Bebê",
+			"hasOffer": 565,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5811?sourceId=22691114"
+		},
+		{
+			"id": 5816,
+			"name": "Cadeira para Auto",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5816?sourceId=22691114"
+		},
+		{
+			"id": 5839,
+			"name": "Som Automotivo",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5839?sourceId=22691114"
+		},
+		{
+			"id": 5896,
+			"name": "Tinta para Casa / Construção",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5896?sourceId=22691114"
+		},
+		{
+			"id": 5962,
+			"name": "Fios",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5962?sourceId=22691114"
+		},
+		{
+			"id": 5998,
+			"name": "Bola de Futebol",
+			"hasOffer": 11191,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5998?sourceId=22691114"
+		},
+		{
+			"id": 6354,
+			"name": "Meia Masculina",
+			"hasOffer": 79,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6354?sourceId=22691114"
+		},
+		{
+			"id": 6358,
+			"name": "Jaqueta Masculina",
+			"hasOffer": 75,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6358?sourceId=22691114"
+		},
+		{
+			"id": 6424,
+			"name": "Notebook",
+			"hasOffer": 24,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6424?sourceId=22691114"
+		},
+		{
+			"id": 6450,
+			"name": "Eletrônicos de Uso Pessoal",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6450?sourceId=22691114"
+		},
+		{
+			"id": 6533,
+			"name": "Sapatos Femininos",
+			"hasOffer": 215,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6533?sourceId=22691114"
+		},
+		{
+			"id": 6535,
+			"name": "Copo para Bebê",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6535?sourceId=22691114"
+		},
+		{
+			"id": 6537,
+			"name": "Prato para Bebê",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6537?sourceId=22691114"
+		},
+		{
+			"id": 6538,
+			"name": "Otros Accesorios para Televisores",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6538?sourceId=22691114"
+		},
+		{
+			"id": 6570,
+			"name": "Shorts Feminino",
+			"hasOffer": 86,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6570?sourceId=22691114"
+		},
+		{
+			"id": 6574,
+			"name": "Roupão Masculino",
+			"hasOffer": 132,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6574?sourceId=22691114"
+		},
+		{
+			"id": 6575,
+			"name": "Roupão",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6575?sourceId=22691114"
+		},
+		{
+			"id": 6597,
+			"name": "Roupão Infantil",
+			"hasOffer": 158,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6597?sourceId=22691114"
+		},
+		{
+			"id": 6713,
+			"name": "Medicamentos / Suplementos para Animais",
+			"hasOffer": 8856,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6713?sourceId=22691114"
+		},
+		{
+			"id": 6743,
+			"name": "Saladeira",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6743?sourceId=22691114"
+		},
+		{
+			"id": 6754,
+			"name": "Jogo de Cama para Solteiro",
+			"hasOffer": 37,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6754?sourceId=22691114"
+		},
+		{
+			"id": 6769,
+			"name": "Calçados Masculinos",
+			"hasOffer": 2057,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6769?sourceId=22691114"
+		},
+		{
+			"id": 6913,
+			"name": "Entrega de Pratos Prontos",
+			"hasOffer": 93,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6913?sourceId=22691114"
+		},
+		{
+			"id": 6985,
+			"name": "Lousa",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6985?sourceId=22691114"
+		},
+		{
+			"id": 7005,
+			"name": "Mesa de Jantar",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7005?sourceId=22691114"
+		},
+		{
+			"id": 7076,
+			"name": "Protetor Solar para Cabelos",
+			"hasOffer": 25,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7076?sourceId=22691114"
+		},
+		{
+			"id": 7106,
+			"name": "Acessórios para Móveis",
+			"hasOffer": 397,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7106?sourceId=22691114"
+		},
+		{
+			"id": 7117,
+			"name": "Puxador",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7117?sourceId=22691114"
+		},
+		{
+			"id": 7119,
+			"name": "Trilho",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7119?sourceId=22691114"
+		},
+		{
+			"id": 7304,
+			"name": "Serviços de Saúde / Bem Estar",
+			"hasOffer": 171,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7304?sourceId=22691114"
+		},
+		{
+			"id": 7413,
+			"name": "Bares",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7413?sourceId=22691114"
+		},
+		{
+			"id": 7423,
+			"name": "Serviços de Buffet",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7423?sourceId=22691114"
+		},
+		{
+			"id": 7530,
+			"name": "Teclado",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7530?sourceId=22691114"
+		},
+		{
+			"id": 7690,
+			"name": "Confecções de Roupas Masculinas",
+			"hasOffer": 879,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7690?sourceId=22691114"
+		},
+		{
+			"id": 7761,
+			"name": "Estojo",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7761?sourceId=22691114"
+		},
+		{
+			"id": 7858,
+			"name": "Escola de Esportes Aquáticos",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7858?sourceId=22691114"
+		},
+		{
+			"id": 7859,
+			"name": "Escola  de Caça / Pesca / Tiro",
+			"hasOffer": 7268,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7859?sourceId=22691114"
+		},
+		{
+			"id": 8032,
+			"name": "Mensagem por CD / Correio Elegante/ e-mail",
+			"hasOffer": 165,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8032?sourceId=22691114"
+		},
+		{
+			"id": 8050,
+			"name": "Colecionáveis",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8050?sourceId=22691114"
+		},
+		{
+			"id": 8090,
+			"name": "Lâmpadas para Lanternas",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8090?sourceId=22691114"
+		},
+		{
+			"id": 8405,
+			"name": "Serviços de Segurança Eletrônica",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8405?sourceId=22691114"
+		},
+		{
+			"id": 8624,
+			"name": "Manutenção em Fibra de Vidro",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8624?sourceId=22691114"
+		},
+		{
+			"id": 8736,
+			"name": "Dieta",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8736?sourceId=22691114"
+		},
+		{
+			"id": 8741,
+			"name": "Artesanato em Pedra",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8741?sourceId=22691114"
+		},
+		{
+			"id": 8755,
+			"name": "Ventilador de Teto",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8755?sourceId=22691114"
+		},
+		{
+			"id": 8838,
+			"name": "Umidificador / Vaporizador",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8838?sourceId=22691114"
+		},
+		{
+			"id": 8883,
+			"name": "Correntes para Vasos",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8883?sourceId=22691114"
+		},
+		{
+			"id": 8922,
+			"name": "Módulo",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8922?sourceId=22691114"
+		},
+		{
+			"id": 8929,
+			"name": "Plantas",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8929?sourceId=22691114"
+		},
+		{
+			"id": 9045,
+			"name": "Futebol Americano",
+			"hasOffer": 1140,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9045?sourceId=22691114"
+		},
+		{
+			"id": 9057,
+			"name": "Troninho para Bebês",
+			"hasOffer": 40,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9057?sourceId=22691114"
+		},
+		{
+			"id": 9083,
+			"name": "Serviços de Farmácias Homeopáticas",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9083?sourceId=22691114"
+		},
+		{
+			"id": 9200,
+			"name": "Oxímetro",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9200?sourceId=22691114"
+		},
+		{
+			"id": 9261,
+			"name": "Artes Marciais / Lutas",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9261?sourceId=22691114"
+		},
+		{
+			"id": 9561,
+			"name": "Suínos",
+			"hasOffer": 40,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9561?sourceId=22691114"
+		},
+		{
+			"id": 9610,
+			"name": "Mini Veículo Elétrico",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9610?sourceId=22691114"
+		},
+		{
+			"id": 9777,
+			"name": "Análise / Registro de Alimentos Perecíveis",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9777?sourceId=22691114"
+		},
+		{
+			"id": 9864,
+			"name": "Bebedouro / Purificador de Água",
+			"hasOffer": 13,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9864?sourceId=22691114"
+		},
+		{
+			"id": 9932,
+			"name": "Álcool em Gel",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9932?sourceId=22691114"
+		},
+		{
+			"id": 10020,
+			"name": "Colete Masculino",
+			"hasOffer": 12,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10020?sourceId=22691114"
+		},
+		{
+			"id": 10151,
+			"name": "Patinho",
+			"hasOffer": 14,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10151?sourceId=22691114"
+		},
+		{
+			"id": 10275,
+			"name": "Saída de Praia",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10275?sourceId=22691114"
+		},
+		{
+			"id": 10277,
+			"name": "Biquíni",
+			"hasOffer": 491,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10277?sourceId=22691114"
+		},
+		{
+			"id": 10286,
+			"name": "Personagens de Pelúcia",
+			"hasOffer": 49,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10286?sourceId=22691114"
+		},
+		{
+			"id": 10341,
+			"name": "Fantasias",
+			"hasOffer": 64,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10341?sourceId=22691114"
+		},
+		{
+			"id": 10385,
+			"name": "Acessórios para Bonecos",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10385?sourceId=22691114"
+		},
+		{
+			"id": 10507,
+			"name": "Salame",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10507?sourceId=22691114"
+		},
+		{
+			"id": 10540,
+			"name": "Creme para os Pés",
+			"hasOffer": 532,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10540?sourceId=22691114"
+		},
+		{
+			"id": 10625,
+			"name": "Elíptico",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10625?sourceId=22691114"
+		},
+		{
+			"id": 10699,
+			"name": "Remo",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10699?sourceId=22691114"
+		},
+		{
+			"id": 10729,
+			"name": "Babador para Bebê",
+			"hasOffer": 61,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10729?sourceId=22691114"
+		},
+		{
+			"id": 10737,
+			"name": "Lingerie para Mamãe",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10737?sourceId=22691114"
+		},
+		{
+			"id": 10749,
+			"name": "Conjunto Íntimo Infantil",
+			"hasOffer": 30,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10749?sourceId=22691114"
+		},
+		{
+			"id": 10946,
+			"name": "Prateleira",
+			"hasOffer": 28,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10946?sourceId=22691114"
+		},
+		{
+			"id": 10973,
+			"name": "Porta-Retrato",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10973?sourceId=22691114"
+		},
+		{
+			"id": 11010,
+			"name": "Lixa de Pé",
+			"hasOffer": 35,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11010?sourceId=22691114"
+		},
+		{
+			"id": 11017,
+			"name": "Suéter Feminino",
+			"hasOffer": 95,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11017?sourceId=22691114"
+		},
+		{
+			"id": 11089,
+			"name": "Calçados Infantis",
+			"hasOffer": 50,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11089?sourceId=22691114"
+		},
+		{
+			"id": 11098,
+			"name": "Banheira para Boneca",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11098?sourceId=22691114"
+		},
+		{
+			"id": 11111,
+			"name": "Futebol Infantil",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11111?sourceId=22691114"
+		},
+		{
+			"id": 11112,
+			"name": "Outros Brinquedos para Meninos / Meninas",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11112?sourceId=22691114"
+		},
+		{
+			"id": 11242,
+			"name": "Artes e Atividades",
+			"hasOffer": 71,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11242?sourceId=22691114"
+		},
+		{
+			"id": 11261,
+			"name": "Esportes de Praia ou Ar Livre",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11261?sourceId=22691114"
+		},
+		{
+			"id": 0,
+			"name": "Geral",
+			"hasOffer": 2391668,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/0?sourceId=22691114"
+		},
+		{
+			"id": 8,
+			"name": "Secretária Eletrônica",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8?sourceId=22691114"
+		},
+		{
+			"id": 119,
+			"name": "Aspirador de Pó / Água",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/119?sourceId=22691114"
+		},
+		{
+			"id": 120,
+			"name": "Batedeira",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/120?sourceId=22691114"
+		},
+		{
+			"id": 179,
+			"name": "Brinquedos",
+			"hasOffer": 13525,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/179?sourceId=22691114"
+		},
+		{
+			"id": 187,
+			"name": "Brinquedos Educativos",
+			"hasOffer": 38,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/187?sourceId=22691114"
+		},
+		{
+			"id": 205,
+			"name": "inativo Brinquedos para Praia / Piscina",
+			"hasOffer": 28,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/205?sourceId=22691114"
+		},
+		{
+			"id": 250,
+			"name": "Barba",
+			"hasOffer": 33,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/250?sourceId=22691114"
+		},
+		{
+			"id": 278,
+			"name": "Desodorante",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/278?sourceId=22691114"
+		},
+		{
+			"id": 286,
+			"name": "Corpo",
+			"hasOffer": 1230,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/286?sourceId=22691114"
+		},
+		{
+			"id": 319,
+			"name": "Acessórios para Maquiagem",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/319?sourceId=22691114"
+		},
+		{
+			"id": 327,
+			"name": "Sombra",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/327?sourceId=22691114"
+		},
+		{
+			"id": 693,
+			"name": "Fondue",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/693?sourceId=22691114"
+		},
+		{
+			"id": 849,
+			"name": "Camomila",
+			"hasOffer": 83,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/849?sourceId=22691114"
+		},
+		{
+			"id": 918,
+			"name": "Carnes",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/918?sourceId=22691114"
+		},
+		{
+			"id": 1331,
+			"name": "Mergulho",
+			"hasOffer": 538,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1331?sourceId=22691114"
+		},
+		{
+			"id": 1348,
+			"name": "Futebol",
+			"hasOffer": 15654,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1348?sourceId=22691114"
+		},
+		{
+			"id": 1356,
+			"name": "Natação",
+			"hasOffer": 2815,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1356?sourceId=22691114"
+		},
+		{
+			"id": 1365,
+			"name": "Alho",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1365?sourceId=22691114"
+		},
+		{
+			"id": 1511,
+			"name": "Detergente",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1511?sourceId=22691114"
+		},
+		{
+			"id": 2097,
+			"name": "Autorama e Pistas",
+			"hasOffer": 71,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2097?sourceId=22691114"
+		},
+		{
+			"id": 2213,
+			"name": "Cesto de Roupa",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2213?sourceId=22691114"
+		},
+		{
+			"id": 2324,
+			"name": "Outros Produtos de Limpeza",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2324?sourceId=22691114"
+		},
+		{
+			"id": 2358,
+			"name": "Sementes",
+			"hasOffer": 838,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2358?sourceId=22691114"
+		},
+		{
+			"id": 2410,
+			"name": "Pistola de Brinquedo",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2410?sourceId=22691114"
+		},
+		{
+			"id": 2470,
+			"name": "Moda para Bebê",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2470?sourceId=22691114"
+		},
+		{
+			"id": 2475,
+			"name": "Camiseta Masculina",
+			"hasOffer": 350,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2475?sourceId=22691114"
+		},
+		{
+			"id": 2485,
+			"name": "Mini Blusa Feminina",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2485?sourceId=22691114"
+		},
+		{
+			"id": 2493,
+			"name": "Sutiã",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2493?sourceId=22691114"
+		},
+		{
+			"id": 2506,
+			"name": "Scanner",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2506?sourceId=22691114"
+		},
+		{
+			"id": 2652,
+			"name": "Aramados",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2652?sourceId=22691114"
+		},
+		{
+			"id": 2722,
+			"name": "Colchão",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2722?sourceId=22691114"
+		},
+		{
+			"id": 2729,
+			"name": "Travesseiro",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2729?sourceId=22691114"
+		},
+		{
+			"id": 2731,
+			"name": "Tapete",
+			"hasOffer": 18,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2731?sourceId=22691114"
+		},
+		{
+			"id": 2735,
+			"name": "Talheres",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2735?sourceId=22691114"
+		},
+		{
+			"id": 2741,
+			"name": "Faqueiro",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2741?sourceId=22691114"
+		},
+		{
+			"id": 2762,
+			"name": "Toalha de Mesa",
+			"hasOffer": 12,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2762?sourceId=22691114"
+		},
+		{
+			"id": 2769,
+			"name": "Escorredor de Louça",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2769?sourceId=22691114"
+		},
+		{
+			"id": 2780,
+			"name": "Espelho",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2780?sourceId=22691114"
+		},
+		{
+			"id": 2795,
+			"name": "Máquina de Cortar Cabelo",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2795?sourceId=22691114"
+		},
+		{
+			"id": 2801,
+			"name": "Armário / Guarda-Roupa",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2801?sourceId=22691114"
+		},
+		{
+			"id": 2824,
+			"name": "Bermuda Masculina",
+			"hasOffer": 17,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2824?sourceId=22691114"
+		},
+		{
+			"id": 2913,
+			"name": "Blazer Masculino",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2913?sourceId=22691114"
+		},
+		{
+			"id": 2916,
+			"name": "Mesa",
+			"hasOffer": 36,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2916?sourceId=22691114"
+		},
+		{
+			"id": 2930,
+			"name": "Lâmpada",
+			"hasOffer": 18,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2930?sourceId=22691114"
+		},
+		{
+			"id": 2949,
+			"name": "Saúde",
+			"hasOffer": 821,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2949?sourceId=22691114"
+		},
+		{
+			"id": 2993,
+			"name": "Óculos de Sol",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2993?sourceId=22691114"
+		},
+		{
+			"id": 2995,
+			"name": "Saleiro",
+			"hasOffer": 222,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2995?sourceId=22691114"
+		},
+		{
+			"id": 3011,
+			"name": "Primeiros Socorros",
+			"hasOffer": 32,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3011?sourceId=22691114"
+		},
+		{
+			"id": 3055,
+			"name": "Seringa",
+			"hasOffer": 37,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3055?sourceId=22691114"
+		},
+		{
+			"id": 3167,
+			"name": "Pincel para Tintura de Cabelos",
+			"hasOffer": 62,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3167?sourceId=22691114"
+		},
+		{
+			"id": 3267,
+			"name": "Base",
+			"hasOffer": 932,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3267?sourceId=22691114"
+		},
+		{
+			"id": 3459,
+			"name": "Vasos",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3459?sourceId=22691114"
+		},
+		{
+			"id": 3482,
+			"name": "Livros",
+			"hasOffer": 34255,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3482?sourceId=22691114"
+		},
+		{
+			"id": 3483,
+			"name": "Bolsa",
+			"hasOffer": 1007,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3483?sourceId=22691114"
+		},
+		{
+			"id": 3589,
+			"name": "Outras Roupas Esportivas",
+			"hasOffer": 17,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3589?sourceId=22691114"
+		},
+		{
+			"id": 3595,
+			"name": "Chaveiro",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3595?sourceId=22691114"
+		},
+		{
+			"id": 3643,
+			"name": "Home Theater",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3643?sourceId=22691114"
+		},
+		{
+			"id": 3669,
+			"name": "Liquidificador",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3669?sourceId=22691114"
+		},
+		{
+			"id": 3671,
+			"name": "Máquina de Lavar Roupas",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3671?sourceId=22691114"
+		},
+		{
+			"id": 3683,
+			"name": "Body",
+			"hasOffer": 92,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3683?sourceId=22691114"
+		},
+		{
+			"id": 3708,
+			"name": "Outros Equipamentos para Proteção Elétrica",
+			"hasOffer": 45,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3708?sourceId=22691114"
+		},
+		{
+			"id": 3727,
+			"name": "Forros, Bolsas y Estuches para HandHelds / Palms",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3727?sourceId=22691114"
+		},
+		{
+			"id": 3764,
+			"name": "Mochila / Maleta para Notebook",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3764?sourceId=22691114"
+		},
+		{
+			"id": 3775,
+			"name": "Outras Fitas",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3775?sourceId=22691114"
+		},
+		{
+			"id": 3975,
+			"name": "Patinete",
+			"hasOffer": 228,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3975?sourceId=22691114"
+		},
+		{
+			"id": 4183,
+			"name": "Casinha",
+			"hasOffer": 93,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4183?sourceId=22691114"
+		},
+		{
+			"id": 4436,
+			"name": "Toalha de Rosto",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4436?sourceId=22691114"
+		},
+		{
+			"id": 4456,
+			"name": "Cureta",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4456?sourceId=22691114"
+		},
+		{
+			"id": 5214,
+			"name": "Baby Doll",
+			"hasOffer": 4975,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5214?sourceId=22691114"
+		},
+		{
+			"id": 5490,
+			"name": "Mamadeira",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5490?sourceId=22691114"
+		},
+		{
+			"id": 5979,
+			"name": "Pá",
+			"hasOffer": 100,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5979?sourceId=22691114"
+		},
+		{
+			"id": 6008,
+			"name": "Bicicleta Ergométrica",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6008?sourceId=22691114"
+		},
+		{
+			"id": 6093,
+			"name": "Higiene Pessoal",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6093?sourceId=22691114"
+		},
+		{
+			"id": 6265,
+			"name": "Diesel Pará",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6265?sourceId=22691114"
+		},
+		{
+			"id": 6356,
+			"name": "Meias",
+			"hasOffer": 27,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6356?sourceId=22691114"
+		},
+		{
+			"id": 6420,
+			"name": "Telefonia",
+			"hasOffer": 19,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6420?sourceId=22691114"
+		},
+		{
+			"id": 6452,
+			"name": "Balança de Cozinha",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6452?sourceId=22691114"
+		},
+		{
+			"id": 6532,
+			"name": "Sapatos Masculinos",
+			"hasOffer": 119,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6532?sourceId=22691114"
+		},
+		{
+			"id": 6534,
+			"name": "Cinto",
+			"hasOffer": 115,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6534?sourceId=22691114"
+		},
+		{
+			"id": 6559,
+			"name": "Vestido Infantil",
+			"hasOffer": 369,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6559?sourceId=22691114"
+		},
+		{
+			"id": 6572,
+			"name": "Sunga",
+			"hasOffer": 29,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6572?sourceId=22691114"
+		},
+		{
+			"id": 6622,
+			"name": "Pulseira",
+			"hasOffer": 16,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6622?sourceId=22691114"
+		},
+		{
+			"id": 6632,
+			"name": "Mini Veículo",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6632?sourceId=22691114"
+		},
+		{
+			"id": 6635,
+			"name": "Sandálias Femininas",
+			"hasOffer": 127,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6635?sourceId=22691114"
+		},
+		{
+			"id": 6681,
+			"name": "Calça Esportiva",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6681?sourceId=22691114"
+		},
+		{
+			"id": 6705,
+			"name": "Estojo / Kit´s de Beleza",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6705?sourceId=22691114"
+		},
+		{
+			"id": 6737,
+			"name": "Coleira para Cachorro",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6737?sourceId=22691114"
+		},
+		{
+			"id": 6755,
+			"name": "Capa / Saia para Colchão",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6755?sourceId=22691114"
+		},
+		{
+			"id": 6758,
+			"name": "Guitarra",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6758?sourceId=22691114"
+		},
+		{
+			"id": 6779,
+			"name": "Auxiliares Diversos para Tintas",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6779?sourceId=22691114"
+		},
+		{
+			"id": 7108,
+			"name": "Painéis Industrializados",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7108?sourceId=22691114"
+		},
+		{
+			"id": 7216,
+			"name": "Balança",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7216?sourceId=22691114"
+		},
+		{
+			"id": 7317,
+			"name": "Outros Serviços de Saúde / Bem Estar",
+			"hasOffer": 20,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7317?sourceId=22691114"
+		},
+		{
+			"id": 7337,
+			"name": "Fretamento de Ônibus / Van",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7337?sourceId=22691114"
+		},
+		{
+			"id": 7526,
+			"name": "Lustres e Pendentes",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7526?sourceId=22691114"
+		},
+		{
+			"id": 7557,
+			"name": "Banqueta",
+			"hasOffer": 45,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7557?sourceId=22691114"
+		},
+		{
+			"id": 7558,
+			"name": "Bar",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7558?sourceId=22691114"
+		},
+		{
+			"id": 7592,
+			"name": "Quadros de Distribuição",
+			"hasOffer": 30,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7592?sourceId=22691114"
+		},
+		{
+			"id": 7645,
+			"name": "Regata Feminina",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7645?sourceId=22691114"
+		},
+		{
+			"id": 7723,
+			"name": "Formulários / Livros Comerciais e Fiscais",
+			"hasOffer": 48,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7723?sourceId=22691114"
+		},
+		{
+			"id": 7742,
+			"name": "Cimento",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7742?sourceId=22691114"
+		},
+		{
+			"id": 7794,
+			"name": "Botas Femininas",
+			"hasOffer": 28,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7794?sourceId=22691114"
+		},
+		{
+			"id": 7877,
+			"name": "Serviços de Saunas",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7877?sourceId=22691114"
+		},
+		{
+			"id": 7897,
+			"name": "Estádios",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7897?sourceId=22691114"
+		},
+		{
+			"id": 7945,
+			"name": "Instalação / Limpeza de Cortinas / Persianas",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7945?sourceId=22691114"
+		},
+		{
+			"id": 8013,
+			"name": "Conserto de Óculos",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8013?sourceId=22691114"
+		},
+		{
+			"id": 8055,
+			"name": "Terapia Alternativa",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8055?sourceId=22691114"
+		},
+		{
+			"id": 8072,
+			"name": "Correios",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8072?sourceId=22691114"
+		},
+		{
+			"id": 8076,
+			"name": "Artigos / Kits para Revendedores",
+			"hasOffer": 12,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8076?sourceId=22691114"
+		},
+		{
+			"id": 8133,
+			"name": "Cabos para Moto",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8133?sourceId=22691114"
+		},
+		{
+			"id": 8590,
+			"name": "e-Books",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8590?sourceId=22691114"
+		},
+		{
+			"id": 8714,
+			"name": "Relógio de Parede",
+			"hasOffer": 14,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8714?sourceId=22691114"
+		},
+		{
+			"id": 8763,
+			"name": "Acessórios para Banheiras",
+			"hasOffer": 63,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8763?sourceId=22691114"
+		},
+		{
+			"id": 8774,
+			"name": "Cama Elástica",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8774?sourceId=22691114"
+		},
+		{
+			"id": 8887,
+			"name": "Jardineira",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8887?sourceId=22691114"
+		},
+		{
+			"id": 8891,
+			"name": "Regador",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8891?sourceId=22691114"
+		},
+		{
+			"id": 8936,
+			"name": "Rugby",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8936?sourceId=22691114"
+		},
+		{
+			"id": 8962,
+			"name": "Equipamientos Electrónicos para Diversión",
+			"hasOffer": 199,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8962?sourceId=22691114"
+		},
+		{
+			"id": 8966,
+			"name": "Agasalho Esportivo",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8966?sourceId=22691114"
+		},
+		{
+			"id": 8978,
+			"name": "Regata Esportiva",
+			"hasOffer": 29,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8978?sourceId=22691114"
+		},
+		{
+			"id": 8992,
+			"name": "Papel para Decoupage",
+			"hasOffer": 12,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8992?sourceId=22691114"
+		},
+		{
+			"id": 9291,
+			"name": "Vestuário para Artes Marciais",
+			"hasOffer": 3324,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9291?sourceId=22691114"
+		},
+		{
+			"id": 9505,
+			"name": "Suporte de Squeeze para Bicicleta",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9505?sourceId=22691114"
+		},
+		{
+			"id": 9545,
+			"name": "Lã",
+			"hasOffer": 280,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9545?sourceId=22691114"
+		},
+		{
+			"id": 9547,
+			"name": "Fogão de Mesa / Cooktop",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9547?sourceId=22691114"
+		},
+		{
+			"id": 9559,
+			"name": "Bovinos",
+			"hasOffer": 102,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9559?sourceId=22691114"
+		},
+		{
+			"id": 9575,
+			"name": "Remédios",
+			"hasOffer": 3569,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9575?sourceId=22691114"
+		},
+		{
+			"id": 9712,
+			"name": "Bancos",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9712?sourceId=22691114"
+		},
+		{
+			"id": 9863,
+			"name": "Purificador de Água",
+			"hasOffer": 30,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9863?sourceId=22691114"
+		},
+		{
+			"id": 9906,
+			"name": "Outros Artigos de Banheiro e Cozinha",
+			"hasOffer": 152,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9906?sourceId=22691114"
+		},
+		{
+			"id": 9909,
+			"name": "Portas",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9909?sourceId=22691114"
+		},
+		{
+			"id": 10010,
+			"name": "Saia Infantil",
+			"hasOffer": 16,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10010?sourceId=22691114"
+		},
+		{
+			"id": 10163,
+			"name": "Maçã",
+			"hasOffer": 20,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10163?sourceId=22691114"
+		},
+		{
+			"id": 10165,
+			"name": "Manga",
+			"hasOffer": 111,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10165?sourceId=22691114"
+		},
+		{
+			"id": 10232,
+			"name": "Tablet",
+			"hasOffer": 11,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10232?sourceId=22691114"
+		},
+		{
+			"id": 10234,
+			"name": "Lixeiras para Coleta Seletiva",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10234?sourceId=22691114"
+		},
+		{
+			"id": 10239,
+			"name": "Calçados para Golfe",
+			"hasOffer": 30,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10239?sourceId=22691114"
+		},
+		{
+			"id": 10251,
+			"name": "Dormitório Completo",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10251?sourceId=22691114"
+		},
+		{
+			"id": 10257,
+			"name": "Caixa de Mergulho para Câmera",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10257?sourceId=22691114"
+		},
+		{
+			"id": 10320,
+			"name": "Skin para MP3 Player / MP4 Player",
+			"hasOffer": 29,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10320?sourceId=22691114"
+		},
+		{
+			"id": 10442,
+			"name": "Instrumentos Musicais Infantis",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10442?sourceId=22691114"
+		},
+		{
+			"id": 10593,
+			"name": "Bandana",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10593?sourceId=22691114"
+		},
+		{
+			"id": 10666,
+			"name": "Bomba de Ar para Bicicleta",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10666?sourceId=22691114"
+		},
+		{
+			"id": 10670,
+			"name": "Suporte para Bicicleta",
+			"hasOffer": 33,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10670?sourceId=22691114"
+		},
+		{
+			"id": 10690,
+			"name": "Cap",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10690?sourceId=22691114"
+		},
+		{
+			"id": 10728,
+			"name": "Outros Vestuários para Artes Marciais",
+			"hasOffer": 6186,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10728?sourceId=22691114"
+		},
+		{
+			"id": 10734,
+			"name": "Outros Artigos para Alimentação do Bebê",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10734?sourceId=22691114"
+		},
+		{
+			"id": 10840,
+			"name": "Máscara para os Olhos",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10840?sourceId=22691114"
+		},
+		{
+			"id": 10880,
+			"name": "Aquecedor de Xícaras",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10880?sourceId=22691114"
+		},
+		{
+			"id": 10894,
+			"name": "Blusa Feminina Plus Size",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10894?sourceId=22691114"
+		},
+		{
+			"id": 10899,
+			"name": "Shorts Feminino Plus Size",
+			"hasOffer": 835,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10899?sourceId=22691114"
+		},
+		{
+			"id": 10999,
+			"name": "Fixador de Dentadura ",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10999?sourceId=22691114"
+		},
+		{
+			"id": 11008,
+			"name": "Kit Manicure / Pedicure",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11008?sourceId=22691114"
+		},
+		{
+			"id": 11021,
+			"name": "Colete Feminino",
+			"hasOffer": 70,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11021?sourceId=22691114"
+		},
+		{
+			"id": 11049,
+			"name": "Aspirador de Pó / Água Profissional",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11049?sourceId=22691114"
+		},
+		{
+			"id": 11060,
+			"name": "Fone de Ouvido para Videogame",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11060?sourceId=22691114"
+		},
+		{
+			"id": 11100,
+			"name": "Acessórios para Bonecas",
+			"hasOffer": 432,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11100?sourceId=22691114"
+		},
+		{
+			"id": 11101,
+			"name": "Jogos de Cartas",
+			"hasOffer": 106,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11101?sourceId=22691114"
+		},
+		{
+			"id": 11206,
+			"name": "Axial / Coifa e Caixa de Direção para Carro",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11206?sourceId=22691114"
+		},
+		{
+			"id": 11247,
+			"name": "Esporte Infantil",
+			"hasOffer": 74,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11247?sourceId=22691114"
+		},
+		{
+			"id": 48,
+			"name": "Placa Controladora IO / Placa Adaptadora",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/48?sourceId=22691114"
+		},
+		{
+			"id": 62,
+			"name": "Caixa de Som para PC",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/62?sourceId=22691114"
+		},
+		{
+			"id": 77,
+			"name": "Celular e Smartphone",
+			"hasOffer": 132,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/77?sourceId=22691114"
+		},
+		{
+			"id": 121,
+			"name": "Cafeteira",
+			"hasOffer": 14,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/121?sourceId=22691114"
+		},
+		{
+			"id": 147,
+			"name": "Panela Elétrica",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/147?sourceId=22691114"
+		},
+		{
+			"id": 214,
+			"name": "Brinquedos Eletrônicos",
+			"hasOffer": 51,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/214?sourceId=22691114"
+		},
+		{
+			"id": 249,
+			"name": "Perfumaria e Cosméticos",
+			"hasOffer": 706,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/249?sourceId=22691114"
+		},
+		{
+			"id": 285,
+			"name": "Sabonete",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/285?sourceId=22691114"
+		},
+		{
+			"id": 317,
+			"name": "Demaquilante",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/317?sourceId=22691114"
+		},
+		{
+			"id": 350,
+			"name": "Removedor de Esmalte",
+			"hasOffer": 17,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/350?sourceId=22691114"
+		},
+		{
+			"id": 486,
+			"name": "Alimentos e Bebidas",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/486?sourceId=22691114"
+		},
+		{
+			"id": 902,
+			"name": "Grão-de-Bico",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/902?sourceId=22691114"
+		},
+		{
+			"id": 1082,
+			"name": "Mel",
+			"hasOffer": 126,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1082?sourceId=22691114"
+		},
+		{
+			"id": 1328,
+			"name": "Esporte e Lazer",
+			"hasOffer": 234,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1328?sourceId=22691114"
+		},
+		{
+			"id": 1359,
+			"name": "Surf",
+			"hasOffer": 9091,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1359?sourceId=22691114"
+		},
+		{
+			"id": 1360,
+			"name": "Vôlei",
+			"hasOffer": 449,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/1360?sourceId=22691114"
+		},
+		{
+			"id": 2207,
+			"name": "Cortador de Unhas",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2207?sourceId=22691114"
+		},
+		{
+			"id": 2313,
+			"name": "Café",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2313?sourceId=22691114"
+		},
+		{
+			"id": 2336,
+			"name": "Passa Fácil",
+			"hasOffer": 19,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2336?sourceId=22691114"
+		},
+		{
+			"id": 2372,
+			"name": "Brinquedos para Festas",
+			"hasOffer": 14,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2372?sourceId=22691114"
+		},
+		{
+			"id": 2412,
+			"name": "Brinquedos para Bebê",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2412?sourceId=22691114"
+		},
+		{
+			"id": 2468,
+			"name": "Moda e Acessórios",
+			"hasOffer": 10222,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2468?sourceId=22691114"
+		},
+		{
+			"id": 2471,
+			"name": "Moda Masculina",
+			"hasOffer": 96,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2471?sourceId=22691114"
+		},
+		{
+			"id": 2480,
+			"name": "Vestido",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2480?sourceId=22691114"
+		},
+		{
+			"id": 2483,
+			"name": "Camiseta Feminina",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2483?sourceId=22691114"
+		},
+		{
+			"id": 2484,
+			"name": "Camisa Feminina",
+			"hasOffer": 18,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2484?sourceId=22691114"
+		},
+		{
+			"id": 2490,
+			"name": "Moda Praia Feminina",
+			"hasOffer": 4788,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2490?sourceId=22691114"
+		},
+		{
+			"id": 2725,
+			"name": "Cobertor",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2725?sourceId=22691114"
+		},
+		{
+			"id": 2732,
+			"name": "Utilidades Domésticas",
+			"hasOffer": 53,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2732?sourceId=22691114"
+		},
+		{
+			"id": 2734,
+			"name": "Prato",
+			"hasOffer": 23,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2734?sourceId=22691114"
+		},
+		{
+			"id": 2789,
+			"name": "Outros Utensílios para Banheiro",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2789?sourceId=22691114"
+		},
+		{
+			"id": 2792,
+			"name": "Instrumentos Musicais",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2792?sourceId=22691114"
+		},
+		{
+			"id": 2794,
+			"name": "Massageador Elétrico",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2794?sourceId=22691114"
+		},
+		{
+			"id": 2797,
+			"name": "Gaveteiro para Escritório",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2797?sourceId=22691114"
+		},
+		{
+			"id": 2831,
+			"name": "Porta-Guardanapo",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2831?sourceId=22691114"
+		},
+		{
+			"id": 2849,
+			"name": "Outras Massas para Acabamento",
+			"hasOffer": 10,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2849?sourceId=22691114"
+		},
+		{
+			"id": 2914,
+			"name": "Carteira",
+			"hasOffer": 71,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2914?sourceId=22691114"
+		},
+		{
+			"id": 2923,
+			"name": "Estante para Escritório",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2923?sourceId=22691114"
+		},
+		{
+			"id": 2929,
+			"name": "Guardanapo de Pano",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2929?sourceId=22691114"
+		},
+		{
+			"id": 2947,
+			"name": "Mochila",
+			"hasOffer": 593,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2947?sourceId=22691114"
+		},
+		{
+			"id": 2987,
+			"name": "Arma",
+			"hasOffer": 35,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2987?sourceId=22691114"
+		},
+		{
+			"id": 2990,
+			"name": "Luminária",
+			"hasOffer": 78,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/2990?sourceId=22691114"
+		},
+		{
+			"id": 3025,
+			"name": "Inalador / Nebulizador",
+			"hasOffer": 14,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3025?sourceId=22691114"
+		},
+		{
+			"id": 3113,
+			"name": "Termômetro",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3113?sourceId=22691114"
+		},
+		{
+			"id": 3273,
+			"name": "Inseticida",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3273?sourceId=22691114"
+		},
+		{
+			"id": 3306,
+			"name": "Cuidados com o Bebê",
+			"hasOffer": 62,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3306?sourceId=22691114"
+		},
+		{
+			"id": 3316,
+			"name": "Aliño en Sobre",
+			"hasOffer": 138,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3316?sourceId=22691114"
+		},
+		{
+			"id": 3337,
+			"name": "Creme Depilatório",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3337?sourceId=22691114"
+		},
+		{
+			"id": 3344,
+			"name": "Protetor Solar",
+			"hasOffer": 56,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3344?sourceId=22691114"
+		},
+		{
+			"id": 3469,
+			"name": "Umidificador",
+			"hasOffer": 20,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3469?sourceId=22691114"
+		},
+		{
+			"id": 3553,
+			"name": "Lancheira",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3553?sourceId=22691114"
+		},
+		{
+			"id": 3588,
+			"name": "Shorts Esportivo",
+			"hasOffer": 24,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3588?sourceId=22691114"
+		},
+		{
+			"id": 3682,
+			"name": "Camisete",
+			"hasOffer": 1096,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3682?sourceId=22691114"
+		},
+		{
+			"id": 3852,
+			"name": "Ferro de Passar Roupas",
+			"hasOffer": 17,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/3852?sourceId=22691114"
+		},
+		{
+			"id": 4163,
+			"name": "Bonecos",
+			"hasOffer": 461,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4163?sourceId=22691114"
+		},
+		{
+			"id": 4184,
+			"name": "Outros Brinquedos para Playground",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4184?sourceId=22691114"
+		},
+		{
+			"id": 4294,
+			"name": "Taça",
+			"hasOffer": 319,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4294?sourceId=22691114"
+		},
+		{
+			"id": 4423,
+			"name": "Malha / Moleton para Cachorro",
+			"hasOffer": 313,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4423?sourceId=22691114"
+		},
+		{
+			"id": 4671,
+			"name": "Fone de Ouvido para Celular e Smartphone",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/4671?sourceId=22691114"
+		},
+		{
+			"id": 5189,
+			"name": "Chinelos",
+			"hasOffer": 364,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5189?sourceId=22691114"
+		},
+		{
+			"id": 5215,
+			"name": "Pijamas Femininos Diversos",
+			"hasOffer": 39,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5215?sourceId=22691114"
+		},
+		{
+			"id": 5515,
+			"name": "Boné",
+			"hasOffer": 8,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5515?sourceId=22691114"
+		},
+		{
+			"id": 5813,
+			"name": "Berços",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5813?sourceId=22691114"
+		},
+		{
+			"id": 5837,
+			"name": "Outros Aparadores",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5837?sourceId=22691114"
+		},
+		{
+			"id": 5867,
+			"name": "Macacão para Bebê",
+			"hasOffer": 218,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5867?sourceId=22691114"
+		},
+		{
+			"id": 5957,
+			"name": "Conexões",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/5957?sourceId=22691114"
+		},
+		{
+			"id": 6000,
+			"name": "Chuteira",
+			"hasOffer": 30,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6000?sourceId=22691114"
+		},
+		{
+			"id": 6184,
+			"name": "GLP Pará",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6184?sourceId=22691114"
+		},
+		{
+			"id": 6359,
+			"name": "Jaqueta Feminina",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6359?sourceId=22691114"
+		},
+		{
+			"id": 6361,
+			"name": "Jaqueta Esportiva",
+			"hasOffer": 7,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6361?sourceId=22691114"
+		},
+		{
+			"id": 6385,
+			"name": "Revista Avulsa",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6385?sourceId=22691114"
+		},
+		{
+			"id": 6409,
+			"name": "Jogos",
+			"hasOffer": 63,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6409?sourceId=22691114"
+		},
+		{
+			"id": 6501,
+			"name": "Colcha",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6501?sourceId=22691114"
+		},
+		{
+			"id": 6553,
+			"name": "Calçados para Bebês",
+			"hasOffer": 134,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6553?sourceId=22691114"
+		},
+		{
+			"id": 6571,
+			"name": "Short Masculino",
+			"hasOffer": 25,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6571?sourceId=22691114"
+		},
+		{
+			"id": 6595,
+			"name": "Top Feminino",
+			"hasOffer": 299,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6595?sourceId=22691114"
+		},
+		{
+			"id": 6628,
+			"name": "Óculos para Esporte",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6628?sourceId=22691114"
+		},
+		{
+			"id": 6633,
+			"name": "Miniaturas para Decoración",
+			"hasOffer": 20,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6633?sourceId=22691114"
+		},
+		{
+			"id": 6634,
+			"name": "Sandálias Masculinas",
+			"hasOffer": 25,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6634?sourceId=22691114"
+		},
+		{
+			"id": 6770,
+			"name": "Calçados Femininos",
+			"hasOffer": 3688,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/6770?sourceId=22691114"
+		},
+		{
+			"id": 7010,
+			"name": "Climatização Náutica",
+			"hasOffer": 23,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7010?sourceId=22691114"
+		},
+		{
+			"id": 7073,
+			"name": "Praia e Piscina",
+			"hasOffer": 502,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7073?sourceId=22691114"
+		},
+		{
+			"id": 7074,
+			"name": "Acessórios para Informática",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7074?sourceId=22691114"
+		},
+		{
+			"id": 7122,
+			"name": "Seladores",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7122?sourceId=22691114"
+		},
+		{
+			"id": 7217,
+			"name": "Desumidificador",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7217?sourceId=22691114"
+		},
+		{
+			"id": 7315,
+			"name": "Plano de Saúde",
+			"hasOffer": 26,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7315?sourceId=22691114"
+		},
+		{
+			"id": 7382,
+			"name": "Lavanderia",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7382?sourceId=22691114"
+		},
+		{
+			"id": 7444,
+			"name": "Tela de Projeção",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7444?sourceId=22691114"
+		},
+		{
+			"id": 7534,
+			"name": "Provedor de E-Mail",
+			"hasOffer": 98,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7534?sourceId=22691114"
+		},
+		{
+			"id": 7669,
+			"name": "Porta-Pratos / Talheres",
+			"hasOffer": 226,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7669?sourceId=22691114"
+		},
+		{
+			"id": 7709,
+			"name": "Bandejas / Estojos Veterinários",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7709?sourceId=22691114"
+		},
+		{
+			"id": 7788,
+			"name": "Necessaire",
+			"hasOffer": 13,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7788?sourceId=22691114"
+		},
+		{
+			"id": 7890,
+			"name": "Serviços de Nutricionistas",
+			"hasOffer": 18,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/7890?sourceId=22691114"
+		},
+		{
+			"id": 8119,
+			"name": "Meditação",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8119?sourceId=22691114"
+		},
+		{
+			"id": 8238,
+			"name": "Serviços em TI",
+			"hasOffer": 15,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8238?sourceId=22691114"
+		},
+		{
+			"id": 8280,
+			"name": "Cursos na Área de Saúde",
+			"hasOffer": 14,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8280?sourceId=22691114"
+		},
+		{
+			"id": 8328,
+			"name": "Curso de Ballet",
+			"hasOffer": 71,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8328?sourceId=22691114"
+		},
+		{
+			"id": 8509,
+			"name": "Cantores",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8509?sourceId=22691114"
+		},
+		{
+			"id": 8568,
+			"name": "Basquete",
+			"hasOffer": 1734,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8568?sourceId=22691114"
+		},
+		{
+			"id": 8583,
+			"name": "Serviços de Conserto de Tapetes / Passadeiras",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8583?sourceId=22691114"
+		},
+		{
+			"id": 8591,
+			"name": "Headphone",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8591?sourceId=22691114"
+		},
+		{
+			"id": 8634,
+			"name": "Feltro",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8634?sourceId=22691114"
+		},
+		{
+			"id": 8665,
+			"name": "Pijama Infantil",
+			"hasOffer": 98,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8665?sourceId=22691114"
+		},
+		{
+			"id": 8814,
+			"name": "Curso de Nutrição",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8814?sourceId=22691114"
+		},
+		{
+			"id": 8877,
+			"name": "Luvas",
+			"hasOffer": 30,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8877?sourceId=22691114"
+		},
+		{
+			"id": 8923,
+			"name": "Tampo",
+			"hasOffer": 16,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8923?sourceId=22691114"
+		},
+		{
+			"id": 8958,
+			"name": "Climatizador",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8958?sourceId=22691114"
+		},
+		{
+			"id": 8959,
+			"name": "Cristaleira",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/8959?sourceId=22691114"
+		},
+		{
+			"id": 9010,
+			"name": "Geladeira para Automóveis",
+			"hasOffer": 194,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9010?sourceId=22691114"
+		},
+		{
+			"id": 9357,
+			"name": "Sacola",
+			"hasOffer": 16,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9357?sourceId=22691114"
+		},
+		{
+			"id": 9674,
+			"name": "Smartphone",
+			"hasOffer": 4,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9674?sourceId=22691114"
+		},
+		{
+			"id": 9704,
+			"name": "Trios-Elétricos",
+			"hasOffer": 25,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9704?sourceId=22691114"
+		},
+		{
+			"id": 9793,
+			"name": "Jogo de Pôquer",
+			"hasOffer": 395,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9793?sourceId=22691114"
+		},
+		{
+			"id": 9795,
+			"name": "Tapetes de Atividades",
+			"hasOffer": 20,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9795?sourceId=22691114"
+		},
+		{
+			"id": 9797,
+			"name": "Pipoqueira",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9797?sourceId=22691114"
+		},
+		{
+			"id": 9801,
+			"name": "Máquina de Gelo",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9801?sourceId=22691114"
+		},
+		{
+			"id": 9848,
+			"name": "Cueca",
+			"hasOffer": 29,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9848?sourceId=22691114"
+		},
+		{
+			"id": 9849,
+			"name": "Outras Peças Íntimas Masculinas",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9849?sourceId=22691114"
+		},
+		{
+			"id": 9850,
+			"name": "Outros Utensílios para Cozinha",
+			"hasOffer": 36,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9850?sourceId=22691114"
+		},
+		{
+			"id": 9853,
+			"name": "Cama / Mesa / Banho Infantil",
+			"hasOffer": 18,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/9853?sourceId=22691114"
+		},
+		{
+			"id": 10015,
+			"name": "Camiseta Masculina Plus Size",
+			"hasOffer": 196,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10015?sourceId=22691114"
+		},
+		{
+			"id": 10039,
+			"name": "Chaleira Elétrica",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10039?sourceId=22691114"
+		},
+		{
+			"id": 10104,
+			"name": "Leitor de e-book",
+			"hasOffer": 23,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10104?sourceId=22691114"
+		},
+		{
+			"id": 10106,
+			"name": "Protetor de Ouvido",
+			"hasOffer": 2,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10106?sourceId=22691114"
+		},
+		{
+			"id": 10343,
+			"name": "Acessórios para Fantasias",
+			"hasOffer": 85,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10343?sourceId=22691114"
+		},
+		{
+			"id": 10368,
+			"name": "Tempero Pronto",
+			"hasOffer": 5,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10368?sourceId=22691114"
+		},
+		{
+			"id": 10386,
+			"name": "Outros Acessórios para Bonecas",
+			"hasOffer": 125,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10386?sourceId=22691114"
+		},
+		{
+			"id": 10554,
+			"name": "Cartões Comemorativos",
+			"hasOffer": 33,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10554?sourceId=22691114"
+		},
+		{
+			"id": 10601,
+			"name": "Escova de Dentes para Bebê",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10601?sourceId=22691114"
+		},
+		{
+			"id": 10602,
+			"name": "Hidratante para Bebê",
+			"hasOffer": 9,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10602?sourceId=22691114"
+		},
+		{
+			"id": 10630,
+			"name": "Outros Aparelhos de Musculação",
+			"hasOffer": 24291,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10630?sourceId=22691114"
+		},
+		{
+			"id": 10735,
+			"name": "Almofada para Amamentação",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10735?sourceId=22691114"
+		},
+		{
+			"id": 10816,
+			"name": "Porta-Mamadeira",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10816?sourceId=22691114"
+		},
+		{
+			"id": 10820,
+			"name": "Protetor de Berço",
+			"hasOffer": 6,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10820?sourceId=22691114"
+		},
+		{
+			"id": 10895,
+			"name": "Calça Feminina Plus Size",
+			"hasOffer": 57,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10895?sourceId=22691114"
+		},
+		{
+			"id": 10898,
+			"name": "Saia Feminina Plus Size",
+			"hasOffer": 20,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10898?sourceId=22691114"
+		},
+		{
+			"id": 10925,
+			"name": "Manta",
+			"hasOffer": 1,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/10925?sourceId=22691114"
+		},
+		{
+			"id": 11016,
+			"name": "Camisa Pólo Masculina",
+			"hasOffer": 395,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11016?sourceId=22691114"
+		},
+		{
+			"id": 11018,
+			"name": "Macacão Feminino",
+			"hasOffer": 260,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11018?sourceId=22691114"
+		},
+		{
+			"id": 11194,
+			"name": "Câmera de Ré",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11194?sourceId=22691114"
+		},
+		{
+			"id": 11236,
+			"name": "Overbumper / Protetor Frontal  para Carro",
+			"hasOffer": 3,
+			"link": "http://api.lomadee.com/v3/1667860428264721b20d1/category/_id/11236?sourceId=22691114"
+		}
+	]
+}
