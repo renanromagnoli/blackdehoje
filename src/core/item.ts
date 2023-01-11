@@ -17,6 +17,10 @@ export default class ItemModel{
         this.#oldPrice = oldPrice
     }
 
+    static empty() {
+        return new ItemModel('', 'Item', 'Category', '#', 'https://place-hold.it/300x500', 150.0, 215.0)
+    }
+
     get id() {
         return this.#id
     }
