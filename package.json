@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "server": "json-server server.json -w -d 750 -p 3456",
+    "server": "json-server -w ./server/index.js -d 750 -p 3456",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
