@@ -10,7 +10,7 @@ import { useEffect, useState } from 'react'
 import Api from '../service/Api'
 import { createOffers } from '../functions/createOffers'
 import {ItemModel} from '../core/item'
-import { Offers } from '../components/Offers'
+import { BannerColumn } from '../components/Banners'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -36,8 +36,6 @@ export default function Home() {
     <>
         <Header />
         <div className={styles.content}>
-          
-          <div className={styles.Features}>
             <div className={styles.sideLeft}></div>
             <main>
               <div className={styles.banner}></div>
@@ -59,9 +57,11 @@ export default function Home() {
                 
               </div>
             </main>
-          </div>
+            <div className={styles.sideRight}>
+              <BannerColumn />
+            </div>
         </div>
-        <aside className={styles.sideRight}></aside>
+        
     </>
   )
 }

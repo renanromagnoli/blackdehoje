@@ -1,0 +1,28 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.sideLeft {
+    width: 25%;
+    height: 100%;
+    max-width: 300px;
+    background-color: pink;
+
+}
+
+.sideRight {
+    width: 300px;
+    height: 100%;
+    background-color: purple;
+}

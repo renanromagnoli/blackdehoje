@@ -1,6 +1,6 @@
 import styles from './styles.module.scss'
 
-import {ItemModel} from '../../core/item';
+// import {ItemModel} from '../../core/item';
 
 interface ItemProps {
     id: string
