@@ -90,3 +90,10 @@
     width: 50%;
 }
 
+.link {
+    text-decoration: none;
+    color: $font-family;
+    :link :active{
+        color: $font-family;
+    }
+}
