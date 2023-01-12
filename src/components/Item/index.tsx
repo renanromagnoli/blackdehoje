@@ -1,5 +1,6 @@
 import styles from './styles.module.scss'
-import ShareIcon from '@mui/icons-material/Share';
+import ShareIcon from '@mui/icons-material/Share'
+import Link from 'next/link'
 
 // import {ItemModel} from '../../core/item';
 
@@ -7,6 +8,7 @@ interface ItemProps {
     id: string
     thumbnail: string
     name: string
+    link: string
     oldPrice?: number | '0'
     price: number
     storeThumb: string
@@ -22,7 +24,9 @@ export function Item(props: ItemProps){
 
     return (
         <div className={styles.itemCard}>
-            <div className={styles.shareItem} title='Compartilhar'><ShareIcon fontSize='medium' style={{color: 'black'}} /></div>
+            <Link href={`https://api.whatsapp.com/send?text=${props.link}`}>
+                <div className={styles.shareItem} title='Compartilhar'><ShareIcon fontSize='medium' style={{color: 'black'}} /></div>
+            </Link>
             <div className={styles.itemContent}>
                 <img src={props.thumbnail} alt="image" />
                 <p className={styles.name}>{props.name}</p>
