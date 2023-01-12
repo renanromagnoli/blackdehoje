@@ -6,8 +6,9 @@ export class ItemModel{
     #thumbnail: string
     #price: number
     #oldPrice?: number
+    #storeThumb: string
 
-    constructor(id: string, name: string, category: string, link: string, thumbnail: string, price: number, oldPrice: number = 0) {
+    constructor(id: string, name: string, category: string, link: string, thumbnail: string, storeThumb: string, price: number, oldPrice: number = 0) {
         this.#id = id
         this.#name = name
         this.#category = category
@@ -15,10 +16,11 @@ export class ItemModel{
         this.#thumbnail = thumbnail
         this.#price = price
         this.#oldPrice = oldPrice
+        this.#storeThumb = storeThumb
     }
 
     static empty() {
-        return new ItemModel('', 'Item', 'Category', '#', "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png", 150.0, 215.0)
+        return new ItemModel('', 'Item', 'Category', '#', "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png", '', 150.0, 215.0)
     }
 
     get id() {
@@ -41,6 +43,9 @@ export class ItemModel{
     }
     get oldPrice() {
         return this.#oldPrice
+    }
+    get storeThumb() {
+        return this.#storeThumb
     }
     
 }

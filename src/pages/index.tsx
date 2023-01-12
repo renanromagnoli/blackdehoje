@@ -50,6 +50,7 @@ export default function Home() {
                                 price={offer.price}  
                                 thumbnail={offer.thumbnail}
                                 oldPrice={offer.oldPrice}
+                                storeThumb={offer.storeThumb}
                               />
                     })
                   } 
