@@ -24,8 +24,10 @@ export function Item(props: ItemProps){
 
     return (
         <div className={styles.itemCard}>
-            <Link href={`https://api.whatsapp.com/send?text=${props.link}`}>
-                <div className={styles.shareItem} title='Compartilhar'><ShareIcon fontSize='medium' style={{color: 'black'}} /></div>
+            <Link href={`https://api.whatsapp.com/send?text=${props.link}`} legacyBehavior>
+                <a target={'_blank'}>
+                    <div className={styles.shareItem} title='Compartilhar'><ShareIcon fontSize='medium' style={{color: 'black'}} /></div>
+                </a>
             </Link>
             <div className={styles.itemContent}>
                 <img src={props.thumbnail} alt="image" />

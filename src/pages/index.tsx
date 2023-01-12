@@ -51,6 +51,7 @@ export default function Home() {
                                 thumbnail={offer.thumbnail}
                                 oldPrice={offer.oldPrice}
                                 storeThumb={offer.storeThumb}
+                                link={offer.link}
                               />
                     })
                   } 
