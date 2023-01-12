@@ -1,3 +1,68 @@
-.logo {
-    background-color: orange;
+@import '../../styles/variables.scss';
+
+.header {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
 }
+
+.logo {
+    // position: relative;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.black .hoje {
+    width: 100%;
+}
+
+.black {
+    font-family: $font-family;
+    font-weight: bold;
+    background-color: black;
+    color: #f1f1f1;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+.hoje {
+    font-family: $font-family;
+    font-weight: bold;
+    background-color: red;
+    color: #f1f1f1;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 50%;
+    height: 70%;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+    text-align: center;
+    
+    :first-child {
+        margin: auto;
+    }
+    .searchInput {
+        width: 92%;
+        height: 100%;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+
+    }
+}
+

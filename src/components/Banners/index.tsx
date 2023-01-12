@@ -12,6 +12,12 @@ function BannerColumn() {
     )
 }
 
+function B30050() {
+    return (
+        <div className={styles.banner30050}></div>
+    )
+}
+
 export {
-    BannerColumn, BannerSquare
+    BannerColumn, BannerSquare, B30050
 }

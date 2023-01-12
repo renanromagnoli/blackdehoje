@@ -8,4 +8,14 @@
     width: 300px;
     height: 600px;
     background: url('https://liberal.com.br/wp-content/uploads/2022/11/BANNER-300-X-600-5.png');
+    overflow: hidden;
+}
+
+.banner30050 {
+    content: '300x50';
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    color: #a1a1a1;
+    background-color: darkgray;
 }

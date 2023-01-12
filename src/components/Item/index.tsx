@@ -22,7 +22,7 @@ export function Item(props: ItemProps){
 
     return (
         <div className={styles.itemCard}>
-            <div className={styles.shareItem} title='Compartilhar'><ShareIcon fontSize='medium' style={{color: 'green'}} /></div>
+            <div className={styles.shareItem} title='Compartilhar'><ShareIcon fontSize='medium' style={{color: 'black'}} /></div>
             <div className={styles.itemContent}>
                 <img src={props.thumbnail} alt="image" />
                 <p className={styles.name}>{props.name}</p>
