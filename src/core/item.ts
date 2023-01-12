@@ -1,4 +1,4 @@
-export default class ItemModel{
+export class ItemModel{
     #id: string
     #name: string
     #category: string
@@ -18,7 +18,7 @@ export default class ItemModel{
     }
 
     static empty() {
-        return new ItemModel('', 'Item', 'Category', '#', 'https://place-hold.it/300x500', 150.0, 215.0)
+        return new ItemModel('', 'Item', 'Category', '#', "https://www.lomadee.com/programas/BR/158/imagemBox_80x60.png", 150.0, 215.0)
     }
 
     get id() {

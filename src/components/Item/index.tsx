@@ -1,21 +1,24 @@
 import styles from './styles.module.scss'
 
-import { useState } from "react";
-import ItemModel from "../../core/item";
+import {ItemModel} from '../../core/item';
 
 interface ItemProps {
-    item: ItemModel
+    id: string
+    thumbnail: string
+    name: string
+    oldPrice?: number
+    price: number
 }
 
+
 export function Item(props: ItemProps){
-    const [item, setItem] = useState<ItemModel>(ItemModel.empty())
 
     return (
         <div className={styles.itemContent}>
-            <div className={styles.thumb}>{item.thumbnail}</div>
-            <div className={styles.name}>{item.name}</div>
-            <div className={styles.oldPrice}>{item.oldPrice}</div>
-            <div className={styles.price}>{item.price}</div>
+            <img src={props.thumbnail} alt="image" />
+            <div className={styles.name}>{props.name}</div>
+            <div className={styles.oldPrice}>{props.oldPrice}</div>
+            <div className={styles.price}>{props.price}</div>
         </div>
     )
 }
