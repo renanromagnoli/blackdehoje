@@ -17,5 +17,11 @@ export default {
         // setOffers(data)
         console.log('ApiData: ', data.offers)
         return data.offers
+    }, 
+    
+    getCategories: async () => {
+        const {data} = await api.get('findCategories')
+        console.log('findCategories: ', data.categories)
+        return data.categories
     }
 }
