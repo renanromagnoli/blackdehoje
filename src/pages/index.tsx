@@ -36,8 +36,18 @@ export default function Home() {
     <>
         <Header />
         <div className={styles.content}>
-            <div className={styles.sideLeft}></div>
-            <main>
+            <div className={styles.sideLeft}>
+              <nav>
+                <ul>
+                  <li>Categoria 1</li>
+                  <li>Categoria 2</li>
+                  <li>Categoria 3</li>
+                  <li>Categoria 4</li>
+                  <li>Categoria 5</li>
+                </ul>
+              </nav>
+            </div>
+            <div className={styles.center}>
               <div className={styles.banner}></div>
               <div className={styles.items}>
                 
@@ -54,11 +64,9 @@ export default function Home() {
                                 link={offer.link}
                               />
                     })
-                  } 
-                    
-                
+                  }   
               </div>
-            </main>
+            </div>
             <div className={styles.sideRight}>
               <BannerColumn />
             </div>
