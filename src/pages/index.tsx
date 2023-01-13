@@ -13,7 +13,10 @@ import {ItemModel} from '../core/item'
 import { BannerColumn } from '../components/Banners'
 import { CategoryModel } from '../core/category'
 import { createCategories } from '../functions/createCategories'
-import { createCategoriesOffers } from '../functions/createCategoriesOffers'
+import { createCategoriesOffers } from '../functions/createOffersCategories'
+import StoreModel from '../core/store'
+import { createStores } from '../functions/createStores'
+import { LeftSide } from '../components/LeftSide'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,38 +25,53 @@ export default function Home() {
 
   const [offers, setOffers] = useState<ItemModel[]>([])
   const [categories, setCategories] = useState<CategoryModel[]>([])
+  const [stores, setStores] = useState<StoreModel[]>([])
 
   // const getOffers = async () => {
   //   const {data} = await Api.getOffersStore()
   //   return data
   // }
+  async function upOffers() {
+    // const categoriesFinded = await createCategories()
+
+    const newOffers = await createOffers()
+    // const categoriesOffers = await createOffersCategories(newCategories => {
+    //   return [
+    //     ...categories,
+    //     newCategories
+
+    //   ]
+    // })
+    // setCategories(categories)
+    setOffers(newOffers)
+  }
+
+  async function upStores() {
+    const stores = await createStores()
+    setStores(stores)
+  }
   
   useEffect(() => {
-    async function upOffers() {
-      const categoriesFinded = await createCategories()
-      // const newOffers = await createOffers(categories)
-      const categoriesOffers = await createCategoriesOffers(categoriesFinded)
-      // setCategories(categories)
-      setOffers(categoriesOffers)
-    }
+    upStores()
     upOffers()
+    console.log('Stores: ', stores)
   }, [])
+
+  if (!stores && !offers) {
+    return <div style={{
+      position: 'absolute',
+      width: '100%',
+      height: '100%',
+      backgroundColor: 'black',
+      color: 'white'
+    }}>Carregando...</div>
+  }
   
   return (
     <>
         <Header />
         <div className={styles.content}>
-            <div className={styles.sideLeft}>
-              <nav>
-                <ul>
-                  <li>Categoria 1</li>
-                  <li>Categoria 2</li>
-                  <li>Categoria 3</li>
-                  <li>Categoria 4</li>
-                  <li>Categoria 5</li>
-                </ul>
-              </nav>
-            </div>
+            <LeftSide />
             <div className={styles.center}>
               <div className={styles.banner}></div>
               <div className={styles.items}>

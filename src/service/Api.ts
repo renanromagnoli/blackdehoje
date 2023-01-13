@@ -41,5 +41,11 @@ export default {
             }
         })
         return data
+    },
+
+    getStores: async () => {
+        const {data} = await api.get('findStores')
+        console.log('Data Store: ', data)
+        return data
     }
 }
