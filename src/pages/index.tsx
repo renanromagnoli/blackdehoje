@@ -11,6 +11,9 @@ import Api from '../service/Api'
 import { createOffers } from '../functions/createOffers'
 import {ItemModel} from '../core/item'
 import { BannerColumn } from '../components/Banners'
+import { CategoryModel } from '../core/category'
+import { createCategories } from '../functions/createCategories'
+import { createCategoriesOffers } from '../functions/createCategoriesOffers'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,7 +21,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   const [offers, setOffers] = useState<ItemModel[]>([])
-  const [caotegories, setCategories] = useState([])
+  const [categories, setCategories] = useState<CategoryModel[]>([])
 
   // const getOffers = async () => {
   //   const {data} = await Api.getOffersStore()
@@ -27,8 +30,11 @@ export default function Home() {
   
   useEffect(() => {
     async function upOffers() {
-      const newOffers = await createOffers()
-      setOffers(newOffers)
+      const categoriesFinded = await createCategories()
+      // const newOffers = await createOffers(categories)
+      const categoriesOffers = await createCategoriesOffers(categoriesFinded)
+      // setCategories(categories)
+      setOffers(categoriesOffers)
     }
     upOffers()
   }, [])

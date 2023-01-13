@@ -1,15 +1,18 @@
 import axios from "axios";
-import {ItemModel} from "../core/item";
 
 const api = axios.create({
     baseURL: 'http://localhost:3456/'
 })
 
 export default {
-    getCategoryOffers: async (category: number) => {
-        const url = `${process.env.LMDURL}/${process.env.TOKEN}/offer/_category/${category}?sourceId=${process.env.SOURCE_ID}`
-        const {data} = await axios.get(url)
-        return data
+    getCategoryOffers: async (categoryNumber: number) => {
+        const url = `${process.env.DEV_LMD_URL}/category/_id/${categoryNumber}`
+        const {data} = await axios.get(url, {
+            params: {
+                sourceId: `${process.env.SOURCE_ID}`
+            }
+        })
+        return data.offers
     }, 
 
     getOffersStore: async () => {
@@ -20,8 +23,23 @@ export default {
     }, 
     
     getCategories: async () => {
-        const {data} = await api.get('findCategories')
+        const {data} = await api.get('findCategories', {
+            params: {
+                hasOffer: true
+            }
+        })
         console.log('findCategories: ', data.categories)
         return data.categories
+    },
+
+    getSearchOffers: async (search: string) => {
+        const url = `${process.env.DEV_LMD_URL}/_search`
+        const {data} = await axios.get(url, {
+            params: {
+                sourceId: `${process.env.SOURCE_ID}`,
+                keyword: search
+            }
+        })
+        return data
     }
 }
