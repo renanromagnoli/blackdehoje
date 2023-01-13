@@ -18,6 +18,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   const [offers, setOffers] = useState<ItemModel[]>([])
+  const [caotegories, setCategories] = useState([])
 
   // const getOffers = async () => {
   //   const {data} = await Api.getOffersStore()
