@@ -7,8 +7,10 @@ interface StoreProps {
 
 export function Store({store}:StoreProps) {
     return (
-        <div className={styles.storeCard}>
-            <img src={store.thumbnail} alt={`Imagem ${store.name}`} />
+        <div className={styles.storeCard} >
+            <div className={styles.logo}>
+                <img className={styles.img} src={store.thumbnail} alt={`Imagem ${store.name}`} title={store.name}/>
+            </div>
         </div>
     )
 }

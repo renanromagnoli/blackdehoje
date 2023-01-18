@@ -9,7 +9,11 @@ interface StoresProps {
 export function Stores({stores}: StoresProps) {
     return (
         <div className={styles.storesContent}>
-            {stores.map(store => <Store key={store.id} store={store}/>)}
+            {stores.map(store => {
+                if(store.hasOffer !== 0) {
+                    return <Store key={store.id} store={store}/>
+                }      
+            })}
         </div>
     )
 }
