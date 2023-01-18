@@ -45,7 +45,9 @@ export default {
 
     getStores: async () => {
         const {data} = await api.get('findStores')
-        console.log('Data Store: ', data)
-        return data
+        if(data) {
+            console.log('Data Store: ', data)
+            return data
+        }
     }
 }

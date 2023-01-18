@@ -54,8 +54,11 @@ export default function Home() {
   useEffect(() => {
     upStores()
     upOffers()
-    console.log('Stores: ', stores)
   }, [])
+  
+  useEffect(() => {
+    console.log('Stores: ', stores)
+  }, [stores])
 
   if (!stores && !offers) {
     return <div style={{
