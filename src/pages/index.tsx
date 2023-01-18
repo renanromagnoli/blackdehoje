@@ -17,6 +17,7 @@ import { createCategoriesOffers } from '../functions/createOffersCategories'
 import StoreModel from '../core/store'
 import { createStores } from '../functions/createStores'
 import { LeftSide } from '../components/LeftSide'
+import { Stores } from '../components/Stores'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -73,6 +74,7 @@ export default function Home() {
   return (
     <>
         <Header />
+        <Stores stores={stores} />
         <div className={styles.content}>
             <LeftSide />
             <div className={styles.center}>
