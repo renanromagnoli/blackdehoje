@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 import {Swiper, SwiperProps} from 'swiper/react'
-import { Navigation, Scrollbar, A11y } from 'swiper';
+import { Navigation, Scrollbar, A11y, Autoplay } from 'swiper';
 // import StoreModel from '../../../core/store'
 // import { Store } from '../Store'
 
@@ -17,7 +17,10 @@ export function Slider({settings, children}: SliderProps) {
 
     return (
 
-        <Swiper modules={[Navigation, A11y, Scrollbar]} {...settings}>
+        <Swiper 
+            modules={[Navigation, A11y, Scrollbar, Autoplay]} 
+            {...settings}
+        >
             {
                 // stores.map((store: StoreModel, i) => {
                 //     return (

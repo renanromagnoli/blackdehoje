@@ -19,7 +19,8 @@ export function Stores({stores}: StoresProps) {
             clickable: true
         },
         loop: true,
-        loopPreventsSlide: true
+        loopPreventsSlide: true,
+        autoplay: true
         // loopAdditionalSlides: 10
         // effect: 'fade'
     }
