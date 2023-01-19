@@ -1,7 +1,7 @@
 import styles from './styles.module.scss'
 import StoreModel from "../../core/store";
 import { Store } from './Store';
-import { Slider } from './Slide';
+import { Slider } from './Slider';
 
 import {SwiperProps, SwiperSlide} from 'swiper/react'
 
@@ -19,7 +19,8 @@ export function Stores({stores}: StoresProps) {
             clickable: true
         },
         loop: true,
-        loopPreventsSlide: true,
+        loopPreventsSlide: true
+        // loopAdditionalSlides: 10
         // effect: 'fade'
     }
 
