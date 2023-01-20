@@ -33,7 +33,7 @@ export function Stores({stores}: StoresProps) {
                 </SwiperSlide> */}
 
                 {stores.map(store => {
-                    if(store.hasOffer > 1000) {
+                    if(store.hasOffer >= 12) {
                         return (
                             <SwiperSlide>
                                 <Store key={store.id} store={store}/>
