@@ -2,26 +2,6 @@ import { createContext, ReactNode, useState, useEffect } from "react"
 import StoreModel from "../core/store"
 
 
-// export interface stateStoreContextProps {
-//     stateStoreContext: StoresContextProps, 
-//     setStateStoreContext(): () => void
-// }
-
-// interface StoreProps {
-//     children: ReactNode
-
-// }
-// interface StoresContextProps {
-//     listSelectedStores: StoreModel[],
-//     setListSelectedStores: (selectedStores: StoresContextProps) => void
-// }
-
-// interface StoresProps {
-//     listSelectedStores: StoresContextProps
-//     setListSelectedStores: (selectedStores: StoresContextProps) => void
-//     children: ReactNode
-// }
-
 interface DataStoresProps {
     listSelectedStores: StoreModel[]
 }
