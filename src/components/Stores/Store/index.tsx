@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { StoresContext } from "../../../contexts/StoresContext";
+import { StoresContext }  from "../../../contexts/StoresContext";
 import StoreModel from "../../../core/store";
 import styles from './styles.module.scss'
 
@@ -9,13 +9,11 @@ interface StoreProps {
 
 export function Store({store}: StoreProps) {
 
-    const contextStores = useContext(StoresContext)
+    const {listSelectedStores, setListSelectedStores} = useContext(StoresContext)
 
     function setStore(selected: StoreModel) {
-        contextStores.setStateStoreContext({
-            // ...context.state,
-            listSelectedStores: [...contextStores.stateStoreContext.listSelectedStores, selected]
-        })
+        console.log('contextStores: ', listSelectedStores)
+        setListSelectedStores([...listSelectedStores, selected])
     }
 
     return (
