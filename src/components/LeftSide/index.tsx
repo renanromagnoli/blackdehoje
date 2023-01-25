@@ -1,17 +1,16 @@
 import Button from './Button'
+import { Categories } from './Categories'
+import { Filters } from './Filters'
 import styles from './styles.module.scss'
 
-const categories = ['Tecnologia', 'Moda', 'Higiene']
+// const categories = ['Tecnologia', 'Moda', 'Higiene']
 
 export function LeftSide() {
     return (
         <div className={styles.sideLeft}>
+            <Filters />
             <nav>
-                {
-                    categories.map((category, i) => {
-                        return <Button key={i} title={category}/>
-                    })
-                }
+                <Categories/>
                 {/* <ul>
                     <li>Categoria 1</li>
                     <li>Categoria 2</li>

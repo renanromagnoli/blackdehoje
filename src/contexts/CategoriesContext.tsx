@@ -1,11 +1,14 @@
 import { CategoryModel } from "../core/category";
 import {createContext, useState, useEffect} from 'react'
+import Api from "../service/Api";
 
 interface DataProps {
+    categories: CategoryModel[]
     categoriesSelected: CategoryModel[]
 }
 
 const data = {
+    categories: [],
     categoriesSelected: []
 }
 
@@ -18,6 +21,14 @@ function CategoriesContextStructure(props) {
         console.log('state categoriesContext: ', state)
     }, [state])
 
+    // useEffect(() => {
+    //     async function getCategories() {
+    //         const categories = await Api.getCategories()
+    //         updateState('categoriesSelected', categories)
+    //     }
+    //     getCategories()
+    // }, [])
+
     function updateState(key, value) {
         setState({
             ...state,
@@ -27,7 +38,9 @@ function CategoriesContextStructure(props) {
 
     return (
         <CategoriesContext.Provider value={{
+            categories: state.categories,
             categoriesSelected: state.categoriesSelected,
+            setCategories: categories => updateState('categories', categories),
             setCategoriesSelected: categoriesSelected => updateState('categoriesSelected', categoriesSelected)
         }}>
             {props.children}

@@ -6,7 +6,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/home.module.scss'
 import { Header } from '../components/Header'
 import { Item } from '../components/Item'
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import Api from '../service/Api'
 import { createOffers } from '../functions/createOffers'
 import {ItemModel} from '../core/item'
@@ -25,7 +25,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   const [offers, setOffers] = useState<ItemModel[]>([])
-  const [categories, setCategories] = useState<CategoryModel[]>([])
+  // const [categories, setCategories] = useContext<CategoryModel[]>([])
   const [stores, setStores] = useState<StoreModel[]>([])
 
   // const getOffers = async () => {
@@ -51,10 +51,17 @@ export default function Home() {
     const stores = await createStores()
     setStores(stores)
   }
+
+//   async function upCategories() {
+//     const categories = await Api.getCategories()
+//     setCategories('categoriesSelected', categories)
+// }
+
   
   useEffect(() => {
     upStores()
     upOffers()
+    // upCategories()
   }, [])
   
   useEffect(() => {
