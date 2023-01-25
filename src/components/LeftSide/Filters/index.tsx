@@ -13,8 +13,8 @@ export function Filters() {
                 stores
             </div>
             <div className={styles.filterCategories}>
-                {categoriesSelected.map(category => {
-                    return <CategoryFilter key={category.id} category={category}/>
+                {categoriesSelected?.map((category, i) => {
+                    return <CategoryFilter key={i} category={category}/>
                 })}
             </div>
         </div>

@@ -1,3 +1,5 @@
+import { useContext } from 'react'
+import { CategoriesContext } from '../../../../contexts/CategoriesContext'
 import { CategoryModel } from '../../../../core/category'
 import styles from './styles.module.scss'
 
@@ -6,10 +8,18 @@ interface CategoryFilterProps {
 }
 
 export function CategoryFilter({category}: CategoryFilterProps) {
+
+    const {categoriesSelected, setCategoriesSelected} = useContext(CategoriesContext)
+
+    function removeCategory(category: CategoryModel) {
+        let index = categoriesSelected.indexOf(category)
+        categoriesSelected.splice(index, 1)
+        setCategoriesSelected([...categoriesSelected])
+    }
     return (
         <div className={styles.categoryFilterContainer}>
             <div className={styles.categoryName}>{category.name}</div>
-            <button>X</button>
+            <button onClick={() => removeCategory(category)}>X</button>
         </div>
     )
 }
