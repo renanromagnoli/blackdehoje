@@ -4,12 +4,16 @@ import { Store } from './Store';
 import { Slider } from './Slider';
 
 import {SwiperProps, SwiperSlide} from 'swiper/react'
+import { useContext } from 'react';
+import { StoresContext } from '../../contexts/StoresContext';
 
 interface StoresProps {
     stores: StoreModel[]
 }
 
 export function Stores({stores}: StoresProps) {
+
+    const {listSelectedStores} = useContext(StoresContext)
 
     const slideSettings: SwiperProps = {
         spaceBetween: 10,
@@ -34,11 +38,13 @@ export function Stores({stores}: StoresProps) {
 
                 {stores.map(store => {
                     if(store.hasOffer >= 12) {
-                        return (
-                            <SwiperSlide>
-                                <Store key={store.id} store={store}/>
-                            </SwiperSlide>
-                        )
+                        if(listSelectedStores.includes(store) == false) {
+                            return (
+                                <SwiperSlide>
+                                    <Store key={store.id} store={store}/>
+                                </SwiperSlide>
+                            )
+                        }
                     }      
                 })}
             </Slider>

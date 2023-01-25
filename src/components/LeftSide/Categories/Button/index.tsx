@@ -1,6 +1,6 @@
 import { memo, useContext } from 'react'
-import { CategoriesContext } from '../../../contexts/CategoriesContext'
-import { CategoryModel } from '../../../core/category'
+import { CategoriesContext } from '../../../../contexts/CategoriesContext'
+import { CategoryModel } from '../../../../core/category'
 import styles from './styles.module.scss'
 
 interface ButtonProps {

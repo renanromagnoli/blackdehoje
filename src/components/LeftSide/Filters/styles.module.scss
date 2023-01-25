@@ -1,7 +1,36 @@
+@import '../../../styles/variables.scss';
+
 .filtersContainer {
-    width: 100%;
+    max-width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: $bg-color;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.filterStores {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .storesFilter {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .title {
+        font-family: $font-family2;
+        margin: 5px auto;
+    }
+
 }

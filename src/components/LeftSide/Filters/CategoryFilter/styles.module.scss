@@ -1,11 +1,19 @@
+@import '../../../../styles/variables.scss';
+
 .categoryFilterContainer {
     width: 100%;
-    padding: 5px;
+    padding: 10px 5px;
+    margin: 5px 0;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
+
+    .categoryName {
+        font-family: $font-family2;
+    }
 
     button {
         cursor: pointer;

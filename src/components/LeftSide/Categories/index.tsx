@@ -1,12 +1,12 @@
 import { useContext, useEffect } from "react"
 import {CategoriesContext} from "../../../contexts/CategoriesContext"
 import Api from "../../../service/Api"
-import Button from "../Button"
+import Button from "./Button"
 
 import styles from './styles.module.scss'
 
 export function Categories() {
-    const {categories, setCategories} = useContext(CategoriesContext)
+    const {categories, setCategories, categoriesSelected} = useContext(CategoriesContext)
 
     useEffect(() => {
         async function getCategories() {
@@ -20,7 +20,9 @@ export function Categories() {
         <div className={styles.categoriesContainer}>
             {
                 categories.map((category, i) => {
-                    return <Button key={i} category={category}/>
+                    if(categoriesSelected.includes(category) == false) {
+                        return <Button key={i} category={category}/>
+                    }
                 })
             }
         </div>

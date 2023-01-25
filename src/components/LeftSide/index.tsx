@@ -1,4 +1,4 @@
-import Button from './Button'
+import Button from './Categories/Button'
 import { Categories } from './Categories'
 import { Filters } from './Filters'
 import styles from './styles.module.scss'
