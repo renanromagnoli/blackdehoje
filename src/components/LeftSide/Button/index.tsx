@@ -1,4 +1,5 @@
-import { memo } from 'react'
+import { memo, useContext } from 'react'
+import { CategoriesContext } from '../../../contexts/CategoriesContext'
 import styles from './styles.module.scss'
 
 interface ButtonProps {
@@ -7,8 +8,15 @@ interface ButtonProps {
 
 
 function Button({title}: ButtonProps) {
+
+    const {categoriesSelected, setCategoriesSelected} = useContext(CategoriesContext)
+
+    function setCategories(category) {
+        setCategoriesSelected([...categoriesSelected, category])
+    }
+
     return (
-        <div className={styles.buttonContainer} onClick={() => console.log('button: ', title)}>
+        <div className={styles.buttonContainer} onClick={() => setCategories(title)}>
             <div className={styles.title}>{title}</div>
         </div>
     )

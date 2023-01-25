@@ -6,6 +6,7 @@ import '../styles/slider.scss'
 import StoresContextStructure from '../contexts/StoresContext'
 import { useEffect, useState, useContext } from 'react'
 import StoreModel from '../core/store'
+import CategoriesContextStructure from '../contexts/CategoriesContext'
 
 export default function App({ Component, pageProps }: AppProps) {
 
@@ -20,9 +21,11 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <StoresContextStructure>
-      {/* <StoresContext.Provider value={{stateStoreContext, setStateStoreContext}}> */}
-        <Component {...pageProps} />
-      {/* </StoresContext.Provider> */}
+      <CategoriesContextStructure>
+        {/* <StoresContext.Provider value={{stateStoreContext, setStateStoreContext}}> */}
+          <Component {...pageProps} />
+        {/* </StoresContext.Provider> */}
+      </CategoriesContextStructure>
     </StoresContextStructure>
   )
 }
