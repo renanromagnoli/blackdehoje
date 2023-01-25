@@ -8,7 +8,7 @@ interface ButtonProps {
 
 function Button({title}: ButtonProps) {
     return (
-        <div className={styles.buttonContainer}>
+        <div className={styles.buttonContainer} onClick={() => console.log('button: ', title)}>
             <div className={styles.title}>{title}</div>
         </div>
     )
