@@ -7,26 +7,35 @@ import styles from './styles.module.scss'
 
 export function Filters() {
 
-    const {categoriesSelected} = useContext(CategoriesContext)
-    const {listSelectedStores} = useContext(StoresContext)
+    const {categoriesSelected, setCategoriesSelected} = useContext(CategoriesContext)
+    const {listSelectedStores, setListSelectedStores} = useContext(StoresContext)
 
-    return (
-        <div className={styles.filtersContainer}>
-            {listSelectedStores.length > 0 && 
-                <div className={styles.filterStores}>
-                    <div className={styles.title}>Lojas Filtradas:</div>
-                    <div className={styles.storesFilter}>
-                        {listSelectedStores?.map((store, i) => {
-                            return <StoreFilter key={i} store={store}/>
-                        })}
+    function clearFilters() {
+        setCategoriesSelected([])
+        setListSelectedStores([])
+    }
+
+    if(categoriesSelected.length > 0 || listSelectedStores.length > 0) {
+        return (
+            
+            <div className={styles.filtersContainer}>
+                <div className={styles.title}>Filtros</div>
+                {listSelectedStores.length > 0 && 
+                    <div className={styles.filterStores}>
+                        <div className={styles.storesFilter}>
+                            {listSelectedStores?.map((store, i) => {
+                                return <StoreFilter key={i} store={store}/>
+                            })}
+                        </div>
                     </div>
+                }
+                <div className={styles.filterCategories}>
+                    {categoriesSelected?.map((category, i) => {
+                        return <CategoryFilter key={i} category={category}/>
+                    })}
                 </div>
-            }
-            <div className={styles.filterCategories}>
-                {categoriesSelected?.map((category, i) => {
-                    return <CategoryFilter key={i} category={category}/>
-                })}
+                <button className={styles.clear} onClick={() => clearFilters()}>Limpar filtros</button>
             </div>
-        </div>
-    )
+        )
+    }
 }

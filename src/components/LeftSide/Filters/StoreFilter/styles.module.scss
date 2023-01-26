@@ -1,3 +1,6 @@
+
+@import '../../../../styles/variables.scss';
+
 .storesFilterContent {
     position: relative;
     width: 40%;
@@ -11,9 +14,15 @@
 
     .button {
         position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $font-family2;
+        font-size: 2.2rem;
         width: 100%;
         height: 100%;
         background-color: darkgray;
+        overflow: hidden;
         opacity: 0;
     }
 

@@ -9,7 +9,29 @@
     background-color: $bg-color;
     margin: 5px;
     padding: 5px;
+    border: solid 2px black;
     border-radius: 20px;
+
+    
+    .title {
+        font-family: $font-family2;
+        color: black;
+        margin: 5px auto;
+        padding: 3px;
+        // border-bottom: solid 1px black;
+        // border-radius: 5px;
+        // background-color: black;
+    }
+
+    .clear {
+        margin: .2rem auto;
+        padding: .2rem;
+        box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, .2);
+        background-color: darkgray;
+        border: none;
+        color: #FFF;
+        cursor: pointer;
+    }
 }
 
 .filterStores {
@@ -28,9 +50,5 @@
 
     }
 
-    .title {
-        font-family: $font-family2;
-        margin: 5px auto;
-    }
 
 }
