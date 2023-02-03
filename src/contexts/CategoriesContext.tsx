@@ -9,6 +9,7 @@ interface DataProps {
 
 const data = {
     categories: [],
+    categoriesOffers: [],
     categoriesSelected: []
 }
 
