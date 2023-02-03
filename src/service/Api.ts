@@ -5,14 +5,15 @@ const api = axios.create({
 })
 
 export default {
-    getCategoryOffers: async (categoryNumber: number) => {
-        const url = `${process.env.DEV_LMD_URL}/category/_id/${categoryNumber}`
+    getCategoryOffers: async (categoryNumber: number, page=1) => {
+        const url = `${process.env.NEXT_PUBLIC_DEV_LMD_URL}/category/_id/${categoryNumber}`
         const {data} = await axios.get(url, {
             params: {
-                sourceId: `${process.env.SOURCE_ID}`
+                sourceId: `${process.env.NEXT_PUBLIC_SOURCE_ID}`, 
+                page
             }
         })
-        return data.offers
+        return data
     }, 
 
     getOffersStore: async () => {
