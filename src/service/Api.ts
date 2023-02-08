@@ -15,7 +15,7 @@ export default {
         })
         return data
     }, 
-
+    
     getOffersStore: async () => {
         const {data} = await api.get(`offersStore`)
         // setOffers(data)
@@ -24,8 +24,10 @@ export default {
     }, 
     
     getCategories: async () => {
-        const {data} = await api.get('findCategories', {
+        const url = `${process.env.NEXT_PUBLIC_DEV_LMD_URL}/category/_all`
+        const {data} = await axios.get(url, {
             params: {
+                sourceId: `${process.env.NEXT_PUBLIC_SOURCE_ID}`, 
                 hasOffer: true
             }
         })
