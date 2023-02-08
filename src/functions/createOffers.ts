@@ -39,11 +39,12 @@ async function createCategoryOfferWithRandomPage(category: CategoryModel, totalP
   }
 }
 
-function filterLimitTime(offers, limitMinutesTime=15) {
+function filterOffersLimitTime(offers, limitMinutesTime=15) {
   let dateNow = new Date()
   offers.forEach((offer, i) => {
-    let reqOfferMinutes = offer?.dataReq.getMinutes()
-    if((dateNow.getMinutes() - reqOfferMinutes) > limitMinutesTime) offers.splice(i, 1)
+    let reqOfferMinutes = offer?.dataReq
+    let dif = parseInt((dateNow / 1000 / 60) - (reqOfferMinutes / 1000 / 60))
+    if(dif > limitMinutesTime) offers.splice(i, 1)
   })
   return offers
 }
@@ -53,7 +54,7 @@ export async function upCategoryOffersContext(category: CategoryModel, categorie
   const categoryOffersCtxt = categoriesOffersContext
   const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt[category.name].totalPages)
 
-  // const offersTimeReview = filterLimitTime(categoryOffersCtxt[category.name].offersPage)
+  const offersTimeReview = filterOffersLimitTime(categoryOffersCtxt[category.name].offersPage)
 
   if(offersPage) {
     return [
@@ -62,7 +63,7 @@ export async function upCategoryOffersContext(category: CategoryModel, categorie
         [category.name]: {
           show: true,
           offersPage: {
-            // ...offersTimeReview,
+            ...offersTimeReview,
             [offersPage.page]: {
               dateReq: offersPage.dateReq, 
               offers: offersPage.offers
