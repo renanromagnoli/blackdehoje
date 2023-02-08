@@ -1,12 +1,13 @@
 import { useContext, useEffect } from "react"
 import {CategoriesContext} from "../../../contexts/CategoriesContext"
+import { upOffersInCategoriesContext } from "../../../functions/createOffers"
 import Api from "../../../service/Api"
 import Button from "./Button"
 
 import styles from './styles.module.scss'
 
 export function Categories() {
-    const {categories, setCategories, categoriesSelected} = useContext(CategoriesContext)
+    const {categories, setCategories, categoriesSelected, categoriesOffers, setCategoriesOffers} = useContext(CategoriesContext)
 
     useEffect(() => {
         async function getCategories() {
@@ -16,10 +17,14 @@ export function Categories() {
         getCategories()
     }, [])
 
+    useEffect(() => {
+        upOffersInCategoriesContext(categoriesSelected, categoriesOffers, setCategoriesOffers)
+    }, [categoriesSelected])
+
     return (
         <div className={styles.categoriesContainer}>
             {
-                categories.map((category, i) => {
+                categories?.map((category, i) => {
                     if(categoriesSelected.includes(category) == false) {
                         return <Button key={i} category={category}/>
                     }

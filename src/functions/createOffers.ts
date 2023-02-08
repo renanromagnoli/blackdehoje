@@ -7,9 +7,19 @@ function setRandomNumberBetween(n1:number, n2:number) {
   return Math.floor(Math.random() * (n2 - n1) + n1)
 }
 
+function filterOffersLimitTime(offers, limitMinutesTime=10) {
+  let dateNow = new Date()
+  offers?.forEach((offer, i) => {
+    let reqOfferMinutes = offer?.dataReq
+    let dif = parseInt((dateNow / 1000 / 60) - (reqOfferMinutes / 1000 / 60))
+    if(dif > limitMinutesTime) offers.splice(i, 1)
+  })
+  return offers
+}
+
 
 export function createOffersModel(offers): Promise<OfferModel[]> {
-    return offers.map((offer: any) => {
+    return offers?.map((offer: any) => {
       const model = new OfferModel(offer.id, offer.name, offer.category, offer.link, offer.thumbnail, offer.price, offer.discount, offer.store)
       if(offer.priceFrom) model.priceFrom = offer.priceFrom
       return model
@@ -39,40 +49,43 @@ async function createCategoryOfferWithRandomPage(category: CategoryModel, totalP
   }
 }
 
-function filterOffersLimitTime(offers, limitMinutesTime=15) {
-  let dateNow = new Date()
-  offers.forEach((offer, i) => {
-    let reqOfferMinutes = offer?.dataReq
-    let dif = parseInt((dateNow / 1000 / 60) - (reqOfferMinutes / 1000 / 60))
-    if(dif > limitMinutesTime) offers.splice(i, 1)
-  })
-  return offers
-}
 
-export async function upCategoryOffersContext(category: CategoryModel, categoriesOffersContext: any){
+
+async function upCategoryOffersContext(category: CategoryModel, categoriesOffersContext: any){
   
   const categoryOffersCtxt = categoriesOffersContext
-  const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt[category.name].totalPages)
+  const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt[category.name]?.totalPages)
 
-  const offersTimeReview = filterOffersLimitTime(categoryOffersCtxt[category.name].offersPage)
+  const offersTimeReview = filterOffersLimitTime(categoryOffersCtxt[category.name]?.offersPage)
 
   if(offersPage) {
     return [
-      ...categoryOffersCtxt,
+      // ...categoryOffersCtxt,
       {
         [category.name]: {
           show: true,
-          offersPage: {
-            ...offersTimeReview,
-            [offersPage.page]: {
-              dateReq: offersPage.dateReq, 
-              offers: offersPage.offers
+          offersPage: [ 
+            // ...offersTimeReview,
+            {
+              [offersPage.page]: {
+                dateReq: offersPage.dateReq, 
+                offers: offersPage.offers
+              }
             }
-          }
+          ]
           ,
           totalPages: offersPage.totalPage
         }
       }
     ]  
+  }
+}
+
+export async function upOffersInCategoriesContext(categoriesSelected: CategoryModel[], categoriesOffersContext: JSX.Element, setCategoriesOffersContext: any) {
+  if(categoriesSelected.length) {
+    categoriesSelected.forEach(category => {
+      let categoryOffer = upCategoryOffersContext(category, categoriesOffersContext)
+      setCategoriesOffersContext(categoryOffer)
+    })
   }
 }

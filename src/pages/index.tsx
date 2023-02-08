@@ -60,7 +60,7 @@ export default function Home() {
   
   useEffect(() => {
     upStores()
-    upOffers()
+    // upOffers()
     // upCategories()
   }, [])
   

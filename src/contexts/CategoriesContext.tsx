@@ -40,9 +40,11 @@ function CategoriesContextStructure(props) {
     return (
         <CategoriesContext.Provider value={{
             categories: state.categories,
-            categoriesSelected: state.categoriesSelected,
             setCategories: categories => updateState('categories', categories),
-            setCategoriesSelected: categoriesSelected => updateState('categoriesSelected', categoriesSelected)
+            categoriesSelected: state.categoriesSelected,
+            setCategoriesSelected: categoriesSelected => updateState('categoriesSelected', categoriesSelected),
+            categoriesOffers: state.categoriesOffers,
+            setCategoriesOffers: categoriesOffers => updateState('categoriesOffers', categoriesOffers)
         }}>
             {props.children}
         </CategoriesContext.Provider>
