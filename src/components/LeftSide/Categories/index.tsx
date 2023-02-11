@@ -18,7 +18,10 @@ export function Categories() {
     }, [])
 
     useEffect(() => {
-        upOffersInCategoriesContext(categoriesSelected, categoriesOffers, setCategoriesOffers)
+        async function upOffers() {
+            await upOffersInCategoriesContext(categoriesSelected, categoriesOffers, setCategoriesOffers)
+        }
+        upOffers()
     }, [categoriesSelected])
 
     return (

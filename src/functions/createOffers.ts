@@ -28,6 +28,7 @@ export function createOffersModel(offers): Promise<OfferModel[]> {
 
 export async function createCategoryOffer(category: CategoryModel, page: number) {
   let data = await Api.getCategoryOffers(category.id, page)
+  console.log('dataApi: ', data)
   if(data) {
     const modelOffers = createOffersModel(data.offers)
     return {
@@ -51,21 +52,26 @@ async function createCategoryOfferWithRandomPage(category: CategoryModel, totalP
 
 
 
-async function upCategoryOffersContext(category: CategoryModel, categoriesOffersContext: any){
+export async function upCategoryOffersContext(category: CategoryModel, categoriesOffersContext: any){
   
   const categoryOffersCtxt = categoriesOffersContext
-  const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt[category.name]?.totalPages)
 
-  const offersTimeReview = filterOffersLimitTime(categoryOffersCtxt[category.name]?.offersPage)
+  const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt[category.name]?.totalPages)
+  // const offersPage = await createCategoryOffer(category, 1)
+  console.log('offersPage: ', offersPage)
+
+  // const offersTimeReview = filterOffersLimitTime(categoryOffersCtxt[category.name]?.offersPage)
+  const oldOffers = categoryOffersCtxt[category.name]?.offersPage
+  const offersExist = oldOffers ? oldOffers : []
+  console.log('offersExist: ', offersExist)
 
   if(offersPage) {
-    return [
-      // ...categoryOffersCtxt,
-      {
+    return {
+      ...categoryOffersCtxt,
         [category.name]: {
           show: true,
           offersPage: [ 
-            // ...offersTimeReview,
+            ...offersExist,
             {
               [offersPage.page]: {
                 dateReq: offersPage.dateReq, 
@@ -76,15 +82,14 @@ async function upCategoryOffersContext(category: CategoryModel, categoriesOffers
           ,
           totalPages: offersPage.totalPage
         }
-      }
-    ]  
+    }
   }
 }
 
 export async function upOffersInCategoriesContext(categoriesSelected: CategoryModel[], categoriesOffersContext: JSX.Element, setCategoriesOffersContext: any) {
   if(categoriesSelected.length) {
-    categoriesSelected.forEach(category => {
-      let categoryOffer = upCategoryOffersContext(category, categoriesOffersContext)
+    categoriesSelected.forEach(async category => {
+      let categoryOffer = await upCategoryOffersContext(category, categoriesOffersContext)
       setCategoriesOffersContext(categoryOffer)
     })
   }
