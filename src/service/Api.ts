@@ -1,4 +1,5 @@
 import axios from "axios";
+import { URLSearchParams } from "next/dist/compiled/@edge-runtime/primitives/url";
 
 const api = axios.create({
     baseURL: 'http://localhost:3456/'
@@ -34,6 +35,22 @@ export default {
         console.log('findCategories: ', data.categories)
         return data.categories
     },
+    // getCategories: async () => {
+    //     const url = `${process.env.NEXT_PUBLIC_DEV_LMD_URL}/category/_all?`
+        
+    //     const response = await fetch(url + new URLSearchParams({
+    //         sourceId: process.env.NEXT_PUBLIC_SOURCE_ID, 
+    //         hasOffer: true
+    //         }), {
+    //             next: {
+    //                 revalidate: 30,
+    //             },
+    //         }
+    //     )
+    //     const data = await response.json()
+    //     console.log('findCategories: ', data.categories)
+    //     return data.categories
+    // },
 
     getSearchOffers: async (search: string) => {
         const url = `${process.env.DEV_LMD_URL}/_search`

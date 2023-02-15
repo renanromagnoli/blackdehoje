@@ -19,18 +19,6 @@ function Button({category}: ButtonProps) {
         }
     }
 
-    async function upOffers(category: CategoryModel) {
-        const newOffers = await upCategoryOffersContext(category, categoriesOffers)
-        setCategoriesOffers(newOffers)
-        console.log('newOffers: ', newOffers)
-    }
-
-    async function upDate(category) {
-        if(categoriesSelected.includes(category) === false) {
-            await upOffers(category)
-            setCategories(category)
-        }
-    }
 
     return (
         <div className={styles.buttonContainer} onClick={() => setCategories(category)}>

@@ -18,11 +18,18 @@ export function Categories() {
     }, [])
 
     useEffect(() => {
+        // upOffersInCategoriesContext(categoriesSelected, categoriesOffers, setCategoriesOffers)
         async function upOffers() {
-            await upOffersInCategoriesContext(categoriesSelected, categoriesOffers, setCategoriesOffers)
+            const newOffers = await upOffersInCategoriesContext(categoriesSelected, categoriesOffers)
+            console.log('NEWcategoriesOffers: ', newOffers)
+            setCategoriesOffers(newOffers)
         }
         upOffers()
     }, [categoriesSelected])
+
+    useEffect(() => {
+        console.log('CHANGEDcategoriesOffers: ', categoriesOffers)
+    }, [categoriesOffers])
 
     return (
         <div className={styles.categoriesContainer}>

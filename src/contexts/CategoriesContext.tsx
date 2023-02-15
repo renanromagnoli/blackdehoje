@@ -1,10 +1,12 @@
 import { CategoryModel } from "../core/category";
 import {createContext, useState, useEffect} from 'react'
 import Api from "../service/Api";
+import OfferModel from "../core/offer";
 
 interface DataProps {
     categories: CategoryModel[]
     categoriesSelected: CategoryModel[]
+    // setCategoriesOffers(): (categoriesOffers: OfferModel[]) => void
 }
 
 const data = {
@@ -41,10 +43,15 @@ function CategoriesContextStructure(props) {
         <CategoriesContext.Provider value={{
             categories: state.categories,
             setCategories: categories => updateState('categories', categories),
+
             categoriesSelected: state.categoriesSelected,
             setCategoriesSelected: categoriesSelected => updateState('categoriesSelected', categoriesSelected),
+
             categoriesOffers: state.categoriesOffers,
-            setCategoriesOffers: categoriesOffers => updateState('categoriesOffers', categoriesOffers)
+            setCategoriesOffers: categoriesOffers => {
+                console.log('setCategoriesOffers categoriesOffers: ', categoriesOffers)
+                updateState('categoriesOffers', categoriesOffers)
+            }
         }}>
             {props.children}
         </CategoriesContext.Provider>
