@@ -27,7 +27,7 @@ export function createOffersModel(offers): Promise<OfferModel[]> {
     })
 }
 
-export async function createCategoryOffer(category: CategoryModel, page: number) {
+export async function createCategoryOffer(category: CategoryModel, page=1) {
   let data = await Api.getCategoryOffers(category.id, page)
   console.log('dataApi: ', data)
   if(data) {
@@ -47,7 +47,7 @@ async function createCategoryOfferWithRandomPage(category: CategoryModel, totalP
     const randomPage = setRandomNumberBetween(1, totalPages)
     return await createCategoryOffer(category, randomPage)
   } else {
-    return await createCategoryOffer(category, 1)    
+    return await createCategoryOffer(category)    
   }
 }
 
@@ -94,7 +94,10 @@ export async function upOffersInCategoriesContext(categoriesSelected: CategoryMo
   let newCategoriesOffers = categoryOffersCtxt
   
   if(categoriesSelected.length > 0) {
-    categoriesSelected.forEach(async category => {
+    
+    // categoriesSelected.forEach(async category => {
+
+    for(const category of categoriesSelected) {
       
       const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt[category.name]?.totalPages)
       console.log('offersPage: ', offersPage)
@@ -121,9 +124,10 @@ export async function upOffersInCategoriesContext(categoriesSelected: CategoryMo
           totalPages: offersPage.totalPage
         }
       }
-      // console.log('newCategoriesOffers: ', newCategoriesOffers)
+      console.log('newCategoriesOffers: ', newCategoriesOffers)
+      // return newCategoriesOffers
       // let categoryOffer = await upCategoryOffersContext(category, categoriesOffersContext)
-    })
+    }
     console.log('!!!!!!!!!!!: ', newCategoriesOffers)
     return newCategoriesOffers
     // console.log('categoriesOffers: ', newCategoriesOffers)
