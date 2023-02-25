@@ -22,7 +22,7 @@ export function Categories() {
         async function upOffers() {
             const newOffers = await upOffersInCategoriesContext(categoriesSelected, categoriesOffers)
             console.log('NEWcategoriesOffers: ', newOffers)
-            setCategoriesOffers(newOffers)
+            if(newOffers) setCategoriesOffers(newOffers)
         }
         upOffers()
     }, [categoriesSelected])

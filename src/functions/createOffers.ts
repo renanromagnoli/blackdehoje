@@ -8,7 +8,7 @@ function setRandomNumberBetween(n1:number, n2:number) {
   return Math.floor(Math.random() * (n2 - n1) + n1)
 }
 
-function filterOffersLimitTime(offers, limitMinutesTime=10) {
+function filterOffersLimitTime(offers, limitMinutesTime=1) {
   let dateNow = new Date()
   offers?.forEach((offer, i) => {
     let reqOfferMinutes = offer?.dataReq
@@ -102,8 +102,8 @@ export async function upOffersInCategoriesContext(categoriesSelected: CategoryMo
       const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt[category.name]?.totalPages)
       console.log('offersPage: ', offersPage)
       
-      const oldOffers = categoryOffersCtxt[category.name]?.offersPage
-      // const offersTimeReview = filterOffersLimitTime(categoryOffersCtxt[category.name]?.offersPage)
+      // const oldOffers = categoryOffersCtxt[category.name]?.offersPage
+      const oldOffers = filterOffersLimitTime(categoryOffersCtxt[category.name]?.offersPage)
       const offersExist = oldOffers ? oldOffers : []
       console.log('offersExist: ', offersExist)
       

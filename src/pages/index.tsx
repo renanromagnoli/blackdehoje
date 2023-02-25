@@ -64,9 +64,9 @@ export default function Home() {
     // upCategories()
   }, [])
   
-  useEffect(() => {
-    console.log('Stores: ', stores)
-  }, [stores])
+  // useEffect(() => {
+  //   console.log('Stores: ', stores)
+  // }, [stores])
 
   if (!stores && !offers) {
     return <div style={{

@@ -7,20 +7,24 @@ const api = axios.create({
 
 export default {
     getCategoryOffers: async (categoryNumber: number, page: number) => {
-        const url = `${process.env.NEXT_PUBLIC_DEV_LMD_URL}/offer/_category/${categoryNumber}`
-        const {data} = await axios.get(url, {
-            params: {
-                sourceId: `${process.env.NEXT_PUBLIC_SOURCE_ID}`, 
-                page
-            }
-        })
-        return data
+        try {
+            const url = `${process.env.NEXT_PUBLIC_DEV_LMD_URL}/offer/_category/${categoryNumber}`
+            const {data} = await axios.get(url, {
+                params: {
+                    sourceId: `${process.env.NEXT_PUBLIC_SOURCE_ID}`, 
+                    page
+                }
+            })
+            return data
+        } catch (error) {
+            console.error(error)
+        }
     }, 
     
     getOffersStore: async () => {
         const {data} = await api.get(`offersStore`)
         // setOffers(data)
-        console.log('ApiData: ', data.offers)
+        // console.log('ApiData: ', data.offers)
         return data.offers
     }, 
     
@@ -32,7 +36,7 @@ export default {
                 hasOffer: true
             }
         })
-        console.log('findCategories: ', data.categories)
+        // console.log('findCategories: ', data.categories)
         return data.categories
     },
     // getCategories: async () => {
@@ -66,7 +70,7 @@ export default {
     getStores: async () => {
         const {data} = await api.get('findStores')
         if(data) {
-            console.log('Data Store: ', data)
+            // console.log('Data Store: ', data)
             return data
         }
     }

@@ -5,6 +5,7 @@ import styles from './styles.module.scss'
 
 interface StoreProps {
     store: StoreModel
+    // key: any
 }
 
 export function Store({store}: StoreProps) {
@@ -12,7 +13,7 @@ export function Store({store}: StoreProps) {
     const {listSelectedStores, setListSelectedStores} = useContext(StoresContext)
 
     function setStore(selected: StoreModel) {
-        console.log('contextStores: ', listSelectedStores)
+        // console.log('contextStores: ', listSelectedStores)
         setListSelectedStores([...listSelectedStores, selected])
     }
 
