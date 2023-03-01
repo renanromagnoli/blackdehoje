@@ -2,7 +2,7 @@ import axios from "axios";
 import { URLSearchParams } from "next/dist/compiled/@edge-runtime/primitives/url";
 
 const api = axios.create({
-    baseURL: 'http://localhost:3456/'
+    baseURL: 'http://localhost:3333/'
 })
 
 export default {

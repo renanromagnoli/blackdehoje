@@ -15,9 +15,13 @@ function filterOffersLimitTime(offers, limitMinutesTime=1) {
     let dif = parseInt((dateNow / 1000 / 60) - (reqOfferMinutes / 1000 / 60))
     if(dif > limitMinutesTime) offers.splice(i, 1)
   })
+  // for(let [i, offer] of offers.entries()) {
+  //   let reqOfferMinutes = offer?.dataReq
+  //   let dif = parseInt((dateNow / 1000 / 60) - (reqOfferMinutes / 1000 / 60))
+  //   if(dif > limitMinutesTime) offers.splice(i, 1)
+  // }
   return offers
 }
-
 
 export function createOffersModel(offers): Promise<OfferModel[]> {
     return offers?.map((offer: any) => {
@@ -41,14 +45,35 @@ export async function createCategoryOffer(category: CategoryModel, page=1) {
   }
 }
 
-async function createCategoryOfferWithRandomPage(category: CategoryModel, totalPage: number) {
-  if(totalPage > 1) {
-    const totalPages = totalPage
-    const randomPage = setRandomNumberBetween(1, totalPages)
-    return await createCategoryOffer(category, randomPage)
-  } else {
-    return await createCategoryOffer(category)    
+async function createCategoryOfferWithRandomPage(category: CategoryModel, categoryOffersCtxt: ReactNode) {
+
+  const totalPage = categoryOffersCtxt[category.name]?.totalPages
+  const offersPage = categoryOffersCtxt[category.name]?.offersPage
+  console.log('LENGTH: ', offersPage?.length)
+  
+  // if(totalPage > 1) {
+  //   const totalPages = totalPage
+  //   const randomPage = setRandomNumberBetween(1, totalPages)
+  //   return await createCategoryOffer(category, randomPage)
+  // } else {
+  //   return await createCategoryOffer(category)    
+  // }
+
+  
+  if(offersPage && offersPage.length === totalPage) {
+    return false
   }
+
+  if(offersPage && offersPage.length < totalPage) {
+    if(totalPage > 1) {
+      const totalPages = totalPage
+      const randomPage = setRandomNumberBetween(1, totalPages)
+      return await createCategoryOffer(category, randomPage)
+    } else {
+      return await createCategoryOffer(category)    
+    }
+  } 
+  return await createCategoryOffer(category)    
 }
 
 
@@ -99,32 +124,35 @@ export async function upOffersInCategoriesContext(categoriesSelected: CategoryMo
 
     for(const category of categoriesSelected) {
       
-      const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt[category.name]?.totalPages)
+      const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt)
       console.log('offersPage: ', offersPage)
       
-      // const oldOffers = categoryOffersCtxt[category.name]?.offersPage
-      const oldOffers = filterOffersLimitTime(categoryOffersCtxt[category.name]?.offersPage)
-      const offersExist = oldOffers ? oldOffers : []
-      console.log('offersExist: ', offersExist)
-      
-      newCategoriesOffers = {
-        ...newCategoriesOffers,
-        [category.name]: {
-          show: true,
-          offersPage: [ 
-            ...offersExist,
-            {
-              [offersPage.page]: {
-                dateReq: offersPage.dateReq, 
-                offers: offersPage.offers
+      if(offersPage) {
+
+        // const oldOffers = categoryOffersCtxt[category.name]?.offersPage
+        const oldOffers = filterOffersLimitTime(categoryOffersCtxt[category.name]?.offersPage)
+        const offersExist = oldOffers ? oldOffers : []
+        console.log('offersExist: ', offersExist)
+        
+        newCategoriesOffers = {
+          ...newCategoriesOffers,
+          [category.name]: {
+            show: true,
+            offersPage: [ 
+              ...offersExist,
+              {
+                [offersPage.page]: {
+                  dateReq: offersPage.dateReq, 
+                  offers: offersPage.offers
+                }
               }
-            }
-          ]
-          ,
-          totalPages: offersPage.totalPage
+            ]
+            ,
+            totalPages: offersPage.totalPage
+          }
         }
+        console.log('newCategoriesOffers: ', newCategoriesOffers)
       }
-      console.log('newCategoriesOffers: ', newCategoriesOffers)
       // return newCategoriesOffers
       // let categoryOffer = await upCategoryOffersContext(category, categoriesOffersContext)
     }
