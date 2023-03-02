@@ -5,7 +5,9 @@ import OfferModel from '../core/offer'
 import Api from '../service/Api'
 
 function setRandomNumberBetween(n1:number, n2:number) {
-  return Math.floor(Math.random() * (n2 - n1) + n1)
+  const min = Math.ceil(n1)
+  const max = Math.floor(n2)
+  return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
 function filterOffersLimitTime(offers, limitMinutesTime=1) {
@@ -47,27 +49,46 @@ export async function createCategoryOffer(category: CategoryModel, page=1) {
 
 async function createCategoryOfferWithRandomPage(category: CategoryModel, categoryOffersCtxt: ReactNode) {
 
-  const totalPage = categoryOffersCtxt[category.name]?.totalPages
+  const totalPages = categoryOffersCtxt[category.name]?.totalPages
   const offersPage = categoryOffersCtxt[category.name]?.offersPage
-  console.log('LENGTH: ', offersPage?.length)
+  // console.log('LENGTH: ', offersPage?.length)
+  // console.log('KEYS: ', Object.keys(offersPage))
   
-  // if(totalPage > 1) {
-  //   const totalPages = totalPage
-  //   const randomPage = setRandomNumberBetween(1, totalPages)
-  //   return await createCategoryOffer(category, randomPage)
-  // } else {
-  //   return await createCategoryOffer(category)    
-  // }
-
-  
-  if(offersPage && offersPage.length === totalPage) {
+  if(offersPage && offersPage.length === totalPages) {
     return false
   }
 
-  if(offersPage && offersPage.length < totalPage) {
-    if(totalPage > 1) {
-      const totalPages = totalPage
-      const randomPage = setRandomNumberBetween(1, totalPages)
+  if(offersPage && offersPage.length < totalPages) {
+    if(totalPages > 1) {
+      // const totalPages = totalPage
+      let randomPage = setRandomNumberBetween(1, totalPages)
+      // console.log('OFFERSPAGE!!!: ', offersPage)
+      // const keys = Object.keys(offersPage)
+      // console.log(`KEYS ${category.name}: `, keys)
+      // console.log(`RANDOM_PAGE ${category.name}:`, randomPage)
+      // while(keys.includes(randomPage.toString())) {
+      //   randomPage = setRandomNumberBetween(1, totalPages)
+      //   console.log(`RANDOM_PAGE LOOP ${category.name}:`, randomPage)
+      // }
+      // let randomExist = null
+      let offersPageKeys = []
+      for(const value of offersPage) {
+        let key = Object.keys(value)[0]
+        // if(key.includes(randomPage.toString())) {
+        //   randomExist = true
+        //   randomPage = setRandomNumberBetween(1, totalPages)
+        // }
+        offersPageKeys.push(parseInt(key))
+      }
+      console.log('OFFERS_PAGE_KEYS: ', offersPageKeys)
+      while(offersPageKeys.includes(randomPage)) {
+        randomPage = setRandomNumberBetween(1, totalPages)
+        // console.log('categoryName!!!: ', category.name)
+        // console.log('totalPages!!!!: ', totalPages)
+        // console.log('offersPageKeys!!!!: ', offersPageKeys)
+        // console.log('randomPage!!!!: ', randomPage)
+      }
+
       return await createCategoryOffer(category, randomPage)
     } else {
       return await createCategoryOffer(category)    
