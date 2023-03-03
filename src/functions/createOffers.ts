@@ -18,7 +18,7 @@ function filterOffersLimitTime(offers, limitMinutesTime=1) {
     let dif = Math.ceil((dateNow / 1000 / 60) - (offerDate / 1000 / 60))
     console.log('OFFER: ', Object.values(offer))
     console.log('DIF: ', dif)
-    if(dif > limitMinutesTime) {
+    if(dif >= limitMinutesTime) {
       console.log('DELETE OFFER: ', Object.values(offer)[0])
       offers.splice(i, 1)
     }

@@ -9,12 +9,19 @@ interface CategoryFilterProps {
 
 export function CategoryFilter({category}: CategoryFilterProps) {
 
-    const {categoriesSelected, setCategoriesSelected} = useContext(CategoriesContext)
+    const {categoriesSelected, setCategoriesSelected, categoriesOffers, setCategoriesOffers} = useContext(CategoriesContext)
 
     function removeCategory(category: CategoryModel) {
         let index = categoriesSelected.indexOf(category)
         categoriesSelected.splice(index, 1)
         setCategoriesSelected([...categoriesSelected])
+        setCategoriesOffers({
+            ...categoriesOffers,
+            [category.name]: {
+                ...categoriesOffers[category.name],
+                show: false
+            }
+        })
     }
     return (
         <div className={styles.categoryFilterContainer}>
