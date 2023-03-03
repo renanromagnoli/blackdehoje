@@ -21,14 +21,14 @@ export function Categories() {
         // upOffersInCategoriesContext(categoriesSelected, categoriesOffers, setCategoriesOffers)
         async function upOffers() {
             const newOffers = await upOffersInCategoriesContext(categoriesSelected, categoriesOffers)
-            console.log('NEWcategoriesOffers: ', newOffers)
+            // console.log('NEWcategoriesOffers: ', newOffers)
             if(newOffers) setCategoriesOffers(newOffers)
         }
         upOffers()
     }, [categoriesSelected])
 
     useEffect(() => {
-        console.log('CHANGEDcategoriesOffers: ', categoriesOffers)
+        // console.log('CHANGEDcategoriesOffers: ', categoriesOffers)
     }, [categoriesOffers])
 
     return (

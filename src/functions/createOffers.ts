@@ -15,8 +15,11 @@ function filterOffersLimitTime(offers, limitMinutesTime=1) {
 
   for(let [i, offer] of offers.entries()) {
     let offerDate = Object.values(offer)[0].dateReq
-    let dif = parseInt((dateNow / 1000 / 60) - (offerDate / 1000 / 60))
+    let dif = Math.ceil((dateNow / 1000 / 60) - (offerDate / 1000 / 60))
+    console.log('OFFER: ', Object.values(offer))
+    console.log('DIF: ', dif)
     if(dif > limitMinutesTime) {
+      console.log('DELETE OFFER: ', Object.values(offer)[0])
       offers.splice(i, 1)
     }
   }
@@ -47,7 +50,10 @@ export async function createCategoryOffer(category: CategoryModel, page=1) {
 async function createCategoryOfferWithRandomPage(category: CategoryModel, categoryOffersCtxt: ReactNode) {
 
   const totalPages = categoryOffersCtxt[category.name]?.totalPages
-  const offersPage = categoryOffersCtxt[category.name]?.offersPage
+  let offersPage = categoryOffersCtxt[category.name]?.offersPage
+
+  offersPage = offersPage ? filterOffersLimitTime(offersPage) : false
+
   
   if(offersPage && offersPage.length === totalPages) {
     return false
@@ -83,12 +89,13 @@ export async function upOffersInCategoriesContext(categoriesSelected: CategoryMo
       const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt)
       
       if(offersPage) {
-        let offersExist = categoryOffersCtxt[category.name]?.offersPage
-        if(offersExist) {
-          offersExist = filterOffersLimitTime(offersExist)
-        } else {
-          offersExist = []
-        }
+        const offersExist = categoryOffersCtxt[category.name]?.offersPage ?? []
+        console.log('OFFERSEXIST: ', offersExist)
+        // if(offersExist) {
+        //   offersExist = filterOffersLimitTime(offersExist)
+        // } else {
+        //   offersExist = []
+        // }
         
         newCategoriesOffers = {
           ...newCategoriesOffers,
