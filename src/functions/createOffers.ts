@@ -10,16 +10,16 @@ function setRandomNumberBetween(n1:number, n2:number) {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-function filterOffersLimitTime(offers, limitMinutesTime=1) {
+function filterOffersLimitTime(offers, limitMinutesTime=5) {
   let dateNow = new Date()
 
   for(let [i, offer] of offers.entries()) {
     let offerDate = Object.values(offer)[0].dateReq
     let dif = Math.ceil((dateNow / 1000 / 60) - (offerDate / 1000 / 60))
-    console.log('OFFER: ', Object.values(offer))
-    console.log('DIF: ', dif)
+    // console.log('OFFER: ', Object.values(offer))
+    // console.log('DIF: ', dif)
     if(dif >= limitMinutesTime) {
-      console.log('DELETE OFFER: ', Object.values(offer)[0])
+      // console.log('DELETE OFFER: ', Object.values(offer)[0])
       offers.splice(i, 1)
     }
   }
@@ -85,17 +85,12 @@ export async function upOffersInCategoriesContext(categoriesSelected: CategoryMo
   let newCategoriesOffers = categoryOffersCtxt
   
   if(categoriesSelected.length > 0) {
+    console.log('PASSOUUU!!!!')
     for(const category of categoriesSelected) {
       const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt)
       
       if(offersPage) {
         const offersExist = categoryOffersCtxt[category.name]?.offersPage ?? []
-        console.log('OFFERSEXIST: ', offersExist)
-        // if(offersExist) {
-        //   offersExist = filterOffersLimitTime(offersExist)
-        // } else {
-        //   offersExist = []
-        // }
         
         newCategoriesOffers = {
           ...newCategoriesOffers,

@@ -1,4 +1,5 @@
 import { useContext } from 'react'
+import { Value } from 'sass'
 import { CategoriesContext } from '../../../contexts/CategoriesContext'
 import { StoresContext } from '../../../contexts/StoresContext'
 import { CategoryFilter } from './CategoryFilter'
@@ -7,12 +8,38 @@ import styles from './styles.module.scss'
 
 export function Filters() {
 
-    const {categoriesSelected, setCategoriesSelected} = useContext(CategoriesContext)
+    const {categoriesSelected, setCategoriesSelected, categoriesOffers, setCategoriesOffers, categoriesState, setCategoriesState} = useContext(CategoriesContext)
     const {listSelectedStores, setListSelectedStores} = useContext(StoresContext)
 
+    function allShowOff() {
+        let ctgsOffers = categoriesOffers
+        console.log('ctgsOffers: ', Object.keys(ctgsOffers))
+        for(const value of Object.keys(ctgsOffers)) {
+            console.log('VALUE: ', value)
+            ctgsOffers = {
+                ...ctgsOffers,
+                [value]: {
+                    ...ctgsOffers[value],
+                    show: false
+                }
+            }
+            console.log('ctgsOffers: ', ctgsOffers)
+        }
+        console.log('ctgsOffers FINAL: ', ctgsOffers)
+        return ctgsOffers
+    }
+    
     function clearFilters() {
-        setCategoriesSelected([])
+        // setCategoriesSelected([])
         setListSelectedStores([])
+        setCategoriesState({
+            ...categoriesState,
+            categoriesOffers: allShowOff(),
+            categoriesSelected: []
+
+        })
+        
+        // setCategoriesOffers(allShowOff())
     }
 
     if(categoriesSelected.length > 0 || listSelectedStores.length > 0) {

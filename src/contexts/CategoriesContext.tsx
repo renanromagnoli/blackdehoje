@@ -51,7 +51,9 @@ function CategoriesContextStructure(props) {
             setCategoriesOffers: categoriesOffers => {
                 // console.log('setCategoriesOffers categoriesOffers: ', categoriesOffers)
                 updateState('categoriesOffers', categoriesOffers)
-            }
+            },
+            categoriesState: state,
+            setCategoriesState: categoriesState => setState(categoriesState)
         }}>
             {props.children}
         </CategoriesContext.Provider>
