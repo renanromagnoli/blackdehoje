@@ -42,6 +42,7 @@ export function Filters() {
         // setCategoriesOffers(allShowOff())
     }
 
+
     if(categoriesSelected.length > 0 || listSelectedStores.length > 0) {
         return (
             

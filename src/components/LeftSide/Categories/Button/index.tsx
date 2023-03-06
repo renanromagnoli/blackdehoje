@@ -27,4 +27,4 @@ function Button({category}: ButtonProps) {
     )
 }
 
-export default memo(Button)
+export default Button

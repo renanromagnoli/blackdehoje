@@ -1,5 +1,4 @@
-import { ReactNode, useContext } from 'react'
-import { CategoriesContext } from '../contexts/CategoriesContext'
+import { ReactNode } from 'react'
 import { CategoryModel } from '../core/category'
 import OfferModel from '../core/offer'
 import Api from '../service/Api'
@@ -82,18 +81,21 @@ async function createCategoryOfferWithRandomPage(category: CategoryModel, catego
 
 export async function upOffersInCategoriesContext(categoriesSelected: CategoryModel[], categoriesOffersContext: JSX.Element) {
   const categoryOffersCtxt = categoriesOffersContext
-  let newCategoriesOffers = categoryOffersCtxt
+  let offersContext = categoryOffersCtxt
   
   if(categoriesSelected.length > 0) {
-    console.log('PASSOUUU!!!!')
+    // console.log('PASSOUUU!!!!')
     for(const category of categoriesSelected) {
       const offersPage = await createCategoryOfferWithRandomPage(category, categoryOffersCtxt)
+      // console.log('CATEGORY NAME: ', category.name)
       
       if(offersPage) {
         const offersExist = categoryOffersCtxt[category.name]?.offersPage ?? []
+
+        // console.log('LENGTH: ', Object.values(offersContext[category.name]).length)
         
-        newCategoriesOffers = {
-          ...newCategoriesOffers,
+        offersContext = {
+          ...offersContext,
           [category.name]: {
             show: true,
             offersPage: [ 
@@ -109,8 +111,16 @@ export async function upOffersInCategoriesContext(categoriesSelected: CategoryMo
             totalPages: offersPage.totalPage
           }
         }
+      } else {
+        offersContext = {
+          ...offersContext,
+          [category.name]: {
+            ...offersContext[category.name],
+            show: true
+          }
+        }
       }
     }
-    return newCategoriesOffers
+    return offersContext
   }
 }

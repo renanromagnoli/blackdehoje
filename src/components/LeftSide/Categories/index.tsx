@@ -7,7 +7,11 @@ import Button from "./Button"
 import styles from './styles.module.scss'
 
 export function Categories() {
-    const {categories, setCategories, categoriesSelected, categoriesOffers, setCategoriesOffers} = useContext(CategoriesContext)
+    const {categories, 
+            setCategories, 
+            categoriesSelected, 
+            categoriesOffers, 
+            setCategoriesOffers} = useContext(CategoriesContext)
 
     useEffect(() => {
         async function getCategories() {
@@ -30,9 +34,9 @@ export function Categories() {
         upOffers()
     }, [categoriesSelected])
 
-    useEffect(() => {
-        console.log('CHANGEDcategoriesOffers: ', categoriesOffers)
-    }, [categoriesOffers])
+    // useEffect(() => {
+    //     console.log('CHANGEDcategoriesOffers: ', categoriesOffers)
+    // }, [categoriesOffers])
 
     return (
         <div className={styles.categoriesContainer}>
