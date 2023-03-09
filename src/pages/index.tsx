@@ -5,7 +5,7 @@ import { Inter } from '@next/font/google'
 
 import styles from '../styles/home.module.scss'
 import { Header } from '../components/Header'
-import { Item } from '../components/Item'
+import { Item } from '../components/Items/Item'
 import { useContext, useEffect, useState } from 'react'
 import Api from '../service/Api'
 import { createOffers } from '../functions/createOffers'
@@ -18,6 +18,8 @@ import StoreModel from '../core/store'
 import { createStores } from '../functions/createStores'
 import { LeftSide } from '../components/LeftSide'
 import { Stores } from '../components/Stores'
+import { CategoriesContext } from '../contexts/CategoriesContext'
+import { Items } from '../components/Items'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -25,6 +27,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   const [offers, setOffers] = useState<ItemModel[]>([])
+  const {categoriesOffers} = useContext(CategoriesContext)
   // const [categories, setCategories] = useContext<CategoryModel[]>([])
   const [stores, setStores] = useState<StoreModel[]>([])
 
@@ -63,6 +66,10 @@ export default function Home() {
     // upOffers()
     // upCategories()
   }, [])
+
+  useEffect(() => {
+    console.log('INDEX categoriesOffers: ', Object.values(categoriesOffers))
+  }, [categoriesOffers])
   
   // useEffect(() => {
   //   console.log('Stores: ', stores)
@@ -86,23 +93,10 @@ export default function Home() {
             <LeftSide />
             <div className={styles.center}>
               <div className={styles.banner}></div>
-              <div className={styles.items}>
-                
-                  {
-                    offers.map((offer: ItemModel) => {
-                      return <Item 
-                                key={offer.id}
-                                id={offer.id} 
-                                name={offer.name} 
-                                price={offer.price}  
-                                thumbnail={offer.thumbnail}
-                                oldPrice={offer.oldPrice}
-                                storeThumb={offer.storeThumb}
-                                link={offer.link}
-                              />
-                    })
-                  }   
-              </div>
+              {/* <div className={styles.items}>
+                  <Items />   
+                </div> */}
+                <Items />   
             </div>
             <div className={styles.sideRight}>
               <BannerColumn />
