@@ -96,7 +96,7 @@ export default function Home() {
               {/* <div className={styles.items}>
                   <Items />   
                 </div> */}
-                <Items />   
+              <Items />   
             </div>
             <div className={styles.sideRight}>
               <BannerColumn />
